@@ -1,0 +1,10 @@
+
+# Credentials and generated local files
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+data/media/
+work/
+data/models/

@@ -1,0 +1,100 @@
+{
+  "status": "awaiting_student",
+  "reviewer": null,
+  "reviewed_at": null,
+  "sample": [
+    {
+      "ai_decision": {
+        "item_id": "feed-04d3e5224ac46d3e28bf8780",
+        "version_id": "6b913619daa120163d5cc4b59a24a5b2d24c2409d6eb8147ba86ec2b6de73c7d",
+        "decision": "accept",
+        "reason": "Original publication on 6 October falls within the 15 September–14 October 2026 UTC window; collection on 14 October is separate. The federation's quota breakdown establishes a new development relevant to women's recurve individual and mixed-team pathways and compound mixed-team Olympic inclusion. Distinguish national quota places from individual athlete selection and compound mixed team from individual competition. The article's shifting references to this week and last week do not establish exact competition dates. Federation promotion is an institutional interest; this shares a producer and announcement with other World Archery coverage, not independent corroboration.",
+        "piece_ids": [
+          "01",
+          "03"
+        ]
+      },
+      "title": "First Los Angeles 2028 Olympic quotas awarded at Asian Games",
+      "url": "https://www.worldarchery.sport/news/202662/first-angeles-2028-olympic-quotas-awarded-asian-games",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    },
+    {
+      "ai_decision": {
+        "item_id": "podcast-05eca698c520034ff541dc1b",
+        "version_id": "b7449cb6b510b35c5d534455d9496fa32969ce75d44bb870311b5ded881fb997",
+        "decision": "accept",
+        "reason": "The original publisher feed dates this episode 24 September; collection is 14 October. Original audio provenance and timestamped segments support bounded programme-level discussion of professional compound competition economics: segments 97-99, 2484.26-2558.70 seconds, address income stability, and 114-122, 2920.18-3150.62 seconds, discuss travel and matchplay trade-offs. These themes inform progression without establishing typical earnings or that matchplay is merely luck. Publisher metadata identifies the Paige Pearce episode but does not verify every speaker; named exact quotations and personal-history attributions require audio review. Bowtech sponsorship/product development, the BMAC discount code and paid Insight membership promotion are explicit commercial interests. Programme efficacy, medical/anti-doping claims and industry-wide superlatives are unsupported here and excluded. Count any YouTube upload of this recording as the same item; none is supplied as a duplicate.",
+        "piece_ids": [
+          "02",
+          "03"
+        ]
+      },
+      "title": "Paige Pearce-NSFW, but not because of that...",
+      "url": "https://PodiumArcherPodcast.podbean.com/e/paige-pearce-nsfw-but-not-because-of-that/",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    },
+    {
+      "ai_decision": {
+        "item_id": "youtube-g5YoOmIQ9B0",
+        "version_id": "18de577e31d15dfaf3835beb026356eb063f0e74d16d535a46cf9366d1d67ea2",
+        "decision": "accept",
+        "reason": "Published 20 September within the window and collected 14 October, this substantive attributed interview helps target archers assess field crossover demands. Segments 6-10, 24.96-47.44 seconds, distinguish repeated flat-range shooting from distance judgment, sight settings and slopes; segments 26-31, 107.00-127.60 seconds, describe Pearce's own approach to course familiarity. Her claims about rising participation/scores and enjoyment causing excellence lack comparative evidence and remain opinions. This is a pre-event account, not a championship result or evidence of transferable training benefits. USA Archery has a promotional interest; the interview is distinct from the Podium Archer recording but remains the same producer as USA Archery's written reporting.",
+        "piece_ids": [
+          "03"
+        ]
+      },
+      "title": "Paige Pearce looks ahead to the 2026 World Archery Field Championships",
+      "url": "https://www.youtube.com/watch?v=g5YoOmIQ9B0",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    },
+    {
+      "ai_decision": {
+        "item_id": "feed-2290b95d4f6880a553384d1a",
+        "version_id": "4ac978658a18376084002428de83f6b2a69ba511ec323f3034702d098e8dcb33",
+        "decision": "reject",
+        "reason": "Published 3 October within the window and collected 14 October, but the multisport medal inventory adds little beyond women's recurve and compound results already covered substantively. It supplies neither underlying archery results nor new practitioner evidence about progression. The same Indian Express producer cannot provide another independent supporting producer, and repeated medal announcements do not establish novelty. No specific commercial relationship is disclosed.",
+        "piece_ids": []
+      },
+      "title": "Asian Games 2026 Indian medal winners: Complete list of all 85 medals won as IND seal top-four finish",
+      "url": "https://indianexpress.com/article/sports/india-asian-games-2026-full-medal-winners-list-85-medals-fourth-place-10905424/",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    },
+    {
+      "ai_decision": {
+        "item_id": "youtube-mETK86QDzrY",
+        "version_id": "155ce52c60fc3d10ababa322a44b123c299731559c15ec7f30b763c167dd71ae",
+        "decision": "defer",
+        "reason": "Official metadata establishes a newly published 8 October programme about Paula; collection is 14 October. Potentially valuable disability-access testimony is present, but the local base-model translation detects Spanish with probability 0.513 and explicitly requires original-audio review. Segments 2-7, 32.72-194.66 seconds, mix pronouns, names and consequential mobility claims, including repetitive corruption in segment 5. Metadata does not verify speakers, classification, competition dates or claimed recovery. Retain raw original audio, detected language, translation task and timestamps for review before extracting a bounded programme account. World Archery has a promotional interest and named supporting organisations are unclear; personal testimony cannot establish medical benefits. Do not accept to fill disability or video quotas.",
+        "piece_ids": []
+      },
+      "title": "Some stories go far beyond the target ❤️ | Trajectory",
+      "url": "https://www.youtube.com/watch?v=mETK86QDzrY",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    },
+    {
+      "ai_decision": {
+        "item_id": "feed-66a6a8723a201514d478d1aa",
+        "version_id": "ee71266a93d2768194686adf5d2286cdbafb6dfeef548f6e99206a9087d2f732",
+        "decision": "reject",
+        "reason": "The originating visible date, 6 October, is within the window; midnight is a normalization, not a known publication time, and collection occurred 14 October. Jones provides substantive attributed experience of traditional 3D competition, parenting and limited facilities. However, the article supplies no sufficiently direct target-competition pathway or decision to justify extending this series to 3D. Her confidence and health difficulties cannot establish coaching efficacy or recovery advice. USA Archery has a national-team promotional interest and shares publisher identity with its supplied video.",
+        "piece_ids": []
+      },
+      "title": "Julie Jones makes history with silver at the World Archery 3D Championships",
+      "url": "https://www.usarchery.org/article/julie-jones-makes-history-with-silver-at-the-world-archery-3d-championships",
+      "student_judgment": null,
+      "student_reason": null,
+      "factual_corrections": []
+    }
+  ],
+  "policy_revision_requested": null
+}

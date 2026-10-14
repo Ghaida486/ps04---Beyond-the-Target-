@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-14T16:58:25.181994Z",
+  "status": "failed",
+  "http_status": 429,
+  "error_code": "credit_balance_exhausted",
+  "error_type": "insufficient_quota"
+}

@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "source_id": "bow-international-written",
+    "publisher_id": "bow-international",
+    "kind": "feed",
+    "url": "https://www.bow-international.com/feed/",
+    "max_items": 10
+  },
+  {
+    "source_id": "world-archery-rss",
+    "publisher_id": "world-archery",
+    "kind": "feed",
+    "url": "https://www.bing.com/news/search?q=site%3Aworldarchery.sport%20women%20October%202026&format=rss",
+    "aggregator": "bing_news",
+    "allowed_hosts": [
+      "www.worldarchery.sport"
+    ],
+    "max_items": 20
+  },
+  {
+    "source_id": "usa-archery-rss",
+    "publisher_id": "usa-archery",
+    "kind": "feed",
+    "url": "https://www.bing.com/news/search?q=site%3Ausarchery.org%20Julie%20Jones%20October%202026&format=rss",
+    "aggregator": "bing_news",
+    "allowed_hosts": [
+      "www.usarchery.org"
+    ],
+    "max_items": 20
+  },
+  {
+    "source_id": "indian-express-rss",
+    "publisher_id": "indian-express",
+    "kind": "feed",
+    "url": "https://www.bing.com/news/search?q=site%3Aindianexpress.com%20%2228-year%20monopoly%22%20archery&format=rss",
+    "aggregator": "bing_news",
+    "allowed_hosts": [
+      "indianexpress.com"
+    ],
+    "max_items": 20
+  },
+  {
+    "source_id": "world-archery-trajectory",
+    "publisher_id": "world-archery",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/watch?v=mETK86QDzrY",
+    "max_items": 1,
+    "transcription_model": "base",
+    "transcription_task": "translate"
+  },
+  {
+    "source_id": "usa-archery-pearce",
+    "publisher_id": "usa-archery",
+    "kind": "youtube",
+    "url": "https://www.youtube.com/watch?v=g5YoOmIQ9B0",
+    "max_items": 1
+  },
+  {
+    "source_id": "ladies-on-the-line",
+    "publisher_id": "ladies-on-the-line",
+    "kind": "podcast",
+    "url": "https://anchor.fm/s/10e633a44/podcast/rss",
+    "max_items": 30,
+    "include_title_pattern": "Episode 16.*Off Season"
+  },
+  {
+    "source_id": "podium-archer",
+    "publisher_id": "podium-archer",
+    "kind": "podcast",
+    "url": "https://feed.podbean.com/PodiumArcherPodcast/feed.xml",
+    "max_items": 30,
+    "include_title_pattern": "^Paige Pearce"
+  },
+  {
+    "source_id": "times-of-india-rss",
+    "publisher_id": "times-of-india",
+    "kind": "feed",
+    "url": "https://www.bing.com/news/search?q=site%3Atimesofindia.indiatimes.com%20archery%20Ankita%20Kumkum%20Kirti%20October%202026&format=rss",
+    "aggregator": "bing_news",
+    "allowed_hosts": [
+      "timesofindia.indiatimes.com"
+    ],
+    "include_title_pattern": "Arrows that rewrote history|Olympic gold jeetna|Grandmother",
+    "max_items": 20
+  }
+]

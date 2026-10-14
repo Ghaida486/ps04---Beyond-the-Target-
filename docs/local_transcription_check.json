@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "provider": "faster-whisper",
+  "model": "base.en",
+  "decoder": "av 16.1.0",
+  "input": "Short fictional speech synthesized on this computer; not assignment evidence",
+  "segment_count": 1,
+  "segments": [
+    {
+      "segment_id": "1",
+      "start_seconds": 0.0,
+      "end_seconds": 5.84,
+      "text": "This is a fictional test recording, the archery project uses local transcription with timestamps."
+    }
+  ],
+  "uses_paid_api": false
+}

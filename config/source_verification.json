@@ -1,0 +1,21 @@
+{
+  "ladies-on-the-line": {
+    "basis": "Originating public RSS feed retrieved and inspected by assistant on 2026-10-14",
+    "url": "https://anchor.fm/s/10e633a44/podcast/rss",
+    "author_elements": {
+      "author": "Katelyn Bordwell and Tanja Gellenthien",
+      "itunes:author": "Katelyn Bordwell and Tanja Gellenthien"
+    },
+    "scope": "Episode 16 - Off Season, original feed publication 2026-09-30",
+    "attribution_rule": "Transcript is not speaker-labelled. Attribute shared discussion/themes to Ladies on the Line or its hosts collectively. Do not assign a particular first-person account or exact quote to a named host without checking the original audio. Do not resolve phonetic host-name errors by guessing.",
+    "student_audio_review": "pending"
+  },
+  "world-archery-trajectory": {
+    "basis": "Official World Archery video metadata inspected by assistant",
+    "url": "https://www.youtube.com/watch?v=mETK86QDzrY",
+    "upload_date": "2026-10-08",
+    "description": "For Paula, the journey began with a bow, but its impact reaches well beyond the shooting line. #ParaArchery",
+    "scope": "Newly published documentary/interview; do not infer an original competition-result date from archival images. Distinguish personal experience from general access or training outcomes.",
+    "translation_rule": "If audio is translated locally, attribute as a translated programme passage; names/scores need source checking. Do not invent a full name or classification from the short metadata description."
+  }
+}

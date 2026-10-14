@@ -1,0 +1,11 @@
+# Reflection draft — student review required
+
+This draft is based on observed artifacts. It is not a statement that the student has already reviewed, approved or published the material. Check it against the actual files, select the points you agree with, and rewrite in your own voice before completing SUBMISSION.md.
+
+**One insight:** The series connects two different meanings of opportunity. Federation reporting can establish an entry condition or a new national Olympic quota, while athlete accounts expose the equipment, time, facilities and career constraints behind participation. Putting these together produces a more useful question for developing women competitors: what does formal eligibility leave unexplained? Neither medals nor an open entry rule prove that access is improving.
+
+**One editorial limitation:** The first selection placed relevant original reporting only in the implications piece, leaving the news brief with two independent producers. Brief generation refused to proceed. The assignment was explicitly revised, with the before/after decision and rationale saved. Transcript errors also caused deferrals; the later attribution policy allowed bounded programme-level use while retaining uncertainty about individual voices. This did not justify accepting an unreliable translated documentary, which remained deferred.
+
+**One architectural tradeoff:** Existing ChatGPT-authenticated Codex inference and local Whisper avoid separate API-key billing. They still use subscription allowance and computer time. Long podcasts took substantial local processing; automatic names, technical terms and translations were unreliable. Retaining exact transcript versions and original media links makes correction possible. Written-body extraction and canonical metadata avoid mistaking navigation changes for new reporting.
+
+**Next improvement:** Check independent-producer support for each intended article before requesting briefs, and verify consequential transcript passages against source captions/audio. Expand direct reporting from amateur women and disabled competitors so the publication depends less on federation promotion and elite experiences. Preserve differences caused by source additions, policy changes and extraction corrections separately rather than treating every version change as a new development.

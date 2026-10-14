@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-14T17:12:00.795361Z",
+  "provider": "codex_cli",
+  "status": "passed",
+  "uses_openai_api_key": false,
+  "purpose": "Connection check only; not an assignment run"
+}

@@ -1,0 +1,12 @@
+# Technical demonstration recording outline
+
+This is a recording guide, not a completed demonstration. Replace each run identifier and claim with actual inspected artifacts before recording. Target 4–6 minutes. The student narrates and must understand the components.
+
+1. **0:00–0:40 — Purpose and audience.** Introduce Beyond the Target: women's competitive archery for female club archers progressing into competition. State the recurring question and the limits of transferring elite experiences to club athletes.
+2. **0:40–1:30 — Architecture.** Show run.sh, the two coordinating workflows, and the diagram in SUBMISSION.md. Explain the three collectors, content extraction, store-only database access, freshness filter, AI decisions, briefs, drafting, checks and human approval. Show one independently runnable component command.
+3. **1:30–2:30 — Trace one actual claim.** Open a published article passage, its claim marker, brief, editorial decision, exact source version and supporting text quote or timestamped segment. Play the original passage or show the substantive text. Explain fact versus source claim versus inference and why this source supports this particular assertion.
+4. **2:30–3:40 — Second day and replay.** Show run.json dates for two real runs on different days. Compare changes.jsonl and actual editorial outputs. Show unchanged records on replay, a newly discovered/changed item or a clearly labeled withheld-item replay, and one real or explicitly simulated collection failure/recovery. Do not present same-day tests as the two required runs.
+5. **3:40–4:40 — Human judgment and revision.** Show your real review of at least three accepted and three rejected/deferred candidates, a before/after policy and rerun comparison. Explain one actual correction and why it was needed. Do not read a hypothetical correction as if it happened.
+6. **4:40–5:30 — Tradeoff and publication.** Explain using existing Codex ChatGPT access and local Whisper: avoids separate API billing but uses Codex allowance and computer time, and transcription may mishear names/scores. Show review/approval matching and the package. Open the three real article/video pairs and describe remaining limitations.
+
+Keep text readable. Do not expose credentials, authentication storage or personal account details. Use the actual as-of dates. Audience videos are separate productions in Google Vids or HeyGen.
