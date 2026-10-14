@@ -22,4 +22,4 @@ Read the [six-item editorial review worksheet](runs/20261014T175929Z-d79199/stud
 - A successful live run on another day during the assignment week; today’s retries do not meet that requirement.
 - Three videos produced in Google Vids or HeyGen, three free-access Substack publications and three accessible YouTube videos, with reciprocal links.
 - Your separate narrated technical demonstration and final reflection.
-- GitHub authentication and upload. The current changes are saved locally.
+- The code, drafts, scripts, and review documents were uploaded to GitHub on October 14. Full transcripts, raw model inputs, and the evidence database remain local; see docs/LOCAL_EVIDENCE.md.
