@@ -13,7 +13,9 @@ This worksheet contains actual AI decisions. The student must supply her own jud
 
 **Your assessment:** Do you agree, disagree, or want to defer? Explain what the evidence supports, what it does not, and any missing perspective.
 
-_To be completed by the student._
+Accept. This article is relevant to Beyond the Target because it explains how Olympic qualification creates opportunities in competitive archery, including women’s events. World Archery is a primary source for the quota announcement. However, a quota place belongs to a country and does not guarantee selection of a particular athlete; the article also does not show whether everyday access to training or funding has improved.
+
+*Decision supplied by Ghaida; explanation drafted with AI assistance.*
 
 ## Paige Pearce-NSFW, but not because of that...
 
