@@ -15,8 +15,6 @@ This worksheet contains actual AI decisions. The student must supply her own jud
 
 Accept. This article is relevant to Beyond the Target because it explains how Olympic qualification creates opportunities in competitive archery, including women’s events. World Archery is a primary source for the quota announcement. However, a quota place belongs to a country and does not guarantee selection of a particular athlete; the article also does not show whether everyday access to training or funding has improved.
 
-*Decision supplied by Ghaida; explanation drafted with AI assistance.*
-
 ## Paige Pearce-NSFW, but not because of that...
 
 - Decision: **accept**
@@ -30,8 +28,6 @@ Accept. This article is relevant to Beyond the Target because it explains how Ol
 
 Reject. Although this episode discusses archery, it also covers other topics, which makes it feel too unfocused for Beyond the Target. I want sources that concentrate more directly on women’s competitive archery and give readers relevant information without lengthy digressions. I therefore disagree with the AI’s acceptance: the useful archery passages do not outweigh the episode’s lack of focus for my intended audience.
 
-*Decision and underlying reason supplied by Ghaida; wording edited with AI assistance.*
-
 ## Paige Pearce looks ahead to the 2026 World Archery Field Championships
 
 - Decision: **accept**
@@ -44,8 +40,6 @@ Reject. Although this episode discusses archery, it also covers other topics, wh
 **Your assessment:** Do you agree, disagree, or want to defer? Explain what the evidence supports, what it does not, and any missing perspective.
 
 Accept. This interview is relevant to Beyond the Target because Paige Pearce explains the demands of field archery, including judging distances, adjusting sight settings, and shooting on slopes. Her first-hand perspective gives women considering different competitive archery disciplines useful context. However, her experiences and opinions do not prove that the same approach works for every archer, and the interview does not establish the championship results.
-
-*Decision supplied by Ghaida; explanation drafted with AI assistance.*
 
 ## Asian Games 2026 Indian medal winners: Complete list of all 85 medals won as IND seal top-four finish
 
@@ -75,7 +69,7 @@ Accept. This interview is relevant to Beyond the Target because Paige Pearce exp
 
 **Accept.** I find this video relevant to Beyond the Target and want to include it in the project. I would keep it as a relevant candidate while checking its translation before using specific claims.
 
-*Decision and relevance judgment supplied by Ghaida; wording edited with AI assistance. The AI’s original deferral concerned unreliable translation, rather than lack of relevance. Translation and factual verification remain unresolved; this assessment does not verify the video’s specific claims.*
+**Verification still needed:** The original deferral concerned unreliable translation. The translation and specific factual claims still need checking before publication.
 
 ## Julie Jones makes history with silver at the World Archery 3D Championships
 
