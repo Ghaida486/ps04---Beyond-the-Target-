@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_student",
+  "status": "sample_reviewed_policy_rerun_in_progress",
   "reviewer": null,
   "reviewed_at": null,
   "sample": [
@@ -8,7 +8,7 @@
         "item_id": "feed-04d3e5224ac46d3e28bf8780",
         "version_id": "6b913619daa120163d5cc4b59a24a5b2d24c2409d6eb8147ba86ec2b6de73c7d",
         "decision": "accept",
-        "reason": "Original publication on 6 October falls within the 15 September–14 October 2026 UTC window; collection on 14 October is separate. The federation's quota breakdown establishes a new development relevant to women's recurve individual and mixed-team pathways and compound mixed-team Olympic inclusion. Distinguish national quota places from individual athlete selection and compound mixed team from individual competition. The article's shifting references to this week and last week do not establish exact competition dates. Federation promotion is an institutional interest; this shares a producer and announcement with other World Archery coverage, not independent corroboration.",
+        "reason": "Original publication on 6 October falls within the 15 September\u201314 October 2026 UTC window; collection on 14 October is separate. The federation's quota breakdown establishes a new development relevant to women's recurve individual and mixed-team pathways and compound mixed-team Olympic inclusion. Distinguish national quota places from individual athlete selection and compound mixed team from individual competition. The article's shifting references to this week and last week do not establish exact competition dates. Federation promotion is an institutional interest; this shares a producer and announcement with other World Archery coverage, not independent corroboration.",
         "piece_ids": [
           "01",
           "03"
@@ -16,9 +16,13 @@
       },
       "title": "First Los Angeles 2028 Olympic quotas awarded at Asian Games",
       "url": "https://www.worldarchery.sport/news/202662/first-angeles-2028-olympic-quotas-awarded-asian-games",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "accept",
+      "student_reason": "This article explains Olympic qualification opportunities relevant to women\u2019s competitive archery. World Archery is a primary source for the announcement. National quota places do not guarantee individual selection, and the article does not establish improved access to training or funding.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested acceptance in chat",
+        "reason": "AI-assisted drafting requested by student"
+      }
     },
     {
       "ai_decision": {
@@ -33,9 +37,13 @@
       },
       "title": "Paige Pearce-NSFW, but not because of that...",
       "url": "https://PodiumArcherPodcast.podbean.com/e/paige-pearce-nsfw-but-not-because-of-that/",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "reject",
+      "student_reason": "Reject. Although this episode discusses archery, it also covers other topics, which makes it feel too unfocused for Beyond the Target. I want sources that concentrate more directly on women\u2019s competitive archery and give readers relevant information without lengthy digressions. I therefore disagree with the AI\u2019s acceptance: the useful archery passages do not outweigh the episode\u2019s lack of focus for my intended audience.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested rejection in chat",
+        "reason": "Student said episode discusses archery but also other topics and feels unfocused; wording edited with AI assistance"
+      }
     },
     {
       "ai_decision": {
@@ -49,9 +57,13 @@
       },
       "title": "Paige Pearce looks ahead to the 2026 World Archery Field Championships",
       "url": "https://www.youtube.com/watch?v=g5YoOmIQ9B0",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "accept",
+      "student_reason": "Accept. This interview is relevant to Beyond the Target because Paige Pearce explains the demands of field archery, including judging distances, adjusting sight settings, and shooting on slopes. Her first-hand perspective gives women considering different competitive archery disciplines useful context. However, her experiences and opinions do not prove that the same approach works for every archer, and the interview does not establish the championship results.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested acceptance in chat",
+        "reason": "AI-assisted drafting requested by student"
+      }
     },
     {
       "ai_decision": {
@@ -63,9 +75,13 @@
       },
       "title": "Asian Games 2026 Indian medal winners: Complete list of all 85 medals won as IND seal top-four finish",
       "url": "https://indianexpress.com/article/sports/india-asian-games-2026-full-medal-winners-list-85-medals-fourth-place-10905424/",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "defer",
+      "student_reason": "**Defer.** This article may be useful later as a reference for medal results, but it covers several sports and provides limited detail about women\u2019s competitive archery. I would hold it for a specific fact-checking need and verify any archery results against official results before using them. For the current series, more focused reporting offers stronger context and analysis.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested deferral",
+        "reason": "Student authorized assistant to draft a reasonable rationale"
+      }
     },
     {
       "ai_decision": {
@@ -75,11 +91,16 @@
         "reason": "Official metadata establishes a newly published 8 October programme about Paula; collection is 14 October. Potentially valuable disability-access testimony is present, but the local base-model translation detects Spanish with probability 0.513 and explicitly requires original-audio review. Segments 2-7, 32.72-194.66 seconds, mix pronouns, names and consequential mobility claims, including repetitive corruption in segment 5. Metadata does not verify speakers, classification, competition dates or claimed recovery. Retain raw original audio, detected language, translation task and timestamps for review before extracting a bounded programme account. World Archery has a promotional interest and named supporting organisations are unclear; personal testimony cannot establish medical benefits. Do not accept to fill disability or video quotas.",
         "piece_ids": []
       },
-      "title": "Some stories go far beyond the target ❤️ | Trajectory",
+      "title": "Some stories go far beyond the target \u2764\ufe0f | Trajectory",
       "url": "https://www.youtube.com/watch?v=mETK86QDzrY",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "accept",
+      "student_reason": "**Accept.** This video is relevant to Beyond the Target because it offers a woman\u2019s personal perspective on archery and the barriers to participation. It can broaden the series beyond competition results by bringing attention to access and inclusion. I would keep it as a relevant source, while checking the translation before using specific statements or drawing conclusions about her experience.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested acceptance",
+        "reason": "Student stated it is relevant; wording edited with AI assistance"
+      },
+      "unresolved_verification": "Original deferral concerned unreliable translation. Specific claims remain unverified."
     },
     {
       "ai_decision": {
@@ -91,10 +112,15 @@
       },
       "title": "Julie Jones makes history with silver at the World Archery 3D Championships",
       "url": "https://www.usarchery.org/article/julie-jones-makes-history-with-silver-at-the-world-archery-3d-championships",
-      "student_judgment": null,
-      "student_reason": null,
-      "factual_corrections": []
+      "student_judgment": "accept",
+      "student_reason": "**Accept.** Julie Jones\u2019s achievement is relevant to Beyond the Target because it highlights a woman competing internationally and discusses the practical challenges of participation, including limited facilities and balancing archery with parenting. Although 3D archery differs from target archery, I consider this wider perspective useful for a publication about women\u2019s competitive archery. I therefore disagree with rejecting the article solely because of its discipline. Her personal experience should not be treated as proof that all women face the same circumstances or as health or training advice.",
+      "factual_corrections": [],
+      "assessment_provenance": {
+        "decision": "Student explicitly requested acceptance in chat",
+        "reason": "Student requested assistant-drafted rationale"
+      }
     }
   ],
-  "policy_revision_requested": null
+  "policy_revision_requested": "Broaden discipline relevance for useful women\u2019s competition/access accounts; reject unfocused mixed-topic episodes; preserve verification safeguards.",
+  "policy_revision_authorization": "User instructed assistant to implement proposed revision after six-item review"
 }
