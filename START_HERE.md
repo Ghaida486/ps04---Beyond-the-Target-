@@ -1,6 +1,6 @@
 # Beyond the Target — start here
 **Three article drafts and three video scripts are ready for student review. They are not published.**
-Latest live run: **2026-10-15**, `runs/20261015T161701Z-ddbccc`. The original October 14 run is preserved. The six source assessments and policy revision are recorded; revised content generation and checks are in progress. Final publication approval is still required.
+Latest live run: **2026-10-15**, `runs/20261015T161701Z-ddbccc`. The original October 14 run is preserved. The six source assessments and policy revision are recorded; three revised articles and three scripts are complete, with passing mechanical checks. Final publication approval is still required.
 ## Original October 14 drafts
 
 These predate the student’s rejection of the Podium Archer episode. Use the revised October 15 series after its checks complete.
@@ -23,7 +23,7 @@ The six source assessments are recorded in the [six-item editorial review worksh
 
 ## Still required
 - Final review and approval of the revised articles and scripts. Source assessments and the version 3 policy revision are recorded.
-- The October 15 live run has completed collection and selection; its content generation and final checks are in progress. It is on a different UTC date from October 14.
+- The October 15 live run has completed collection and selection; its content generation and final checks have completed successfully. It is on a different UTC date from October 14.
 - Three videos produced in Google Vids or HeyGen, three free-access Substack publications and three accessible YouTube videos, with reciprocal links.
 - Your separate narrated technical demonstration and final reflection.
 - The code, drafts, scripts, and review documents were uploaded to GitHub on October 14. Full transcripts, raw model inputs, and the evidence database remain local; see docs/LOCAL_EVIDENCE.md.
@@ -36,4 +36,14 @@ The six source assessments are recorded in the [six-item editorial review worksh
 - [Revised article 2](runs/20261015T161701Z-ddbccc/articles/02.md)
 - [Revised article 3](runs/20261015T161701Z-ddbccc/articles/03.md)
 
-The revised articles are drafts awaiting script completion, checks and final student review.
+The revised articles and scripts passed mechanical checks and await final student review.
+
+### Revised video scripts
+
+- [Script 1](runs/20261015T161701Z-ddbccc/video_scripts/01.md)
+- [Script 2](runs/20261015T161701Z-ddbccc/video_scripts/02.md)
+- [Script 3](runs/20261015T161701Z-ddbccc/video_scripts/03.md)
+- [October 15 run summary](runs/20261015T161701Z-ddbccc/summary.json)
+- [Passing content checks](runs/20261015T161701Z-ddbccc/review.json)
+
+Narration estimates: 3.94, 3.94 and 3.83 minutes at 130 words per minute. Actual video rendering, publication and the separate technical demonstration remain outstanding.

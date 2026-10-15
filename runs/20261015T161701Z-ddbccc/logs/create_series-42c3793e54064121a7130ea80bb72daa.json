@@ -1,0 +1,14 @@
+{
+  "stage": "create_series",
+  "status": "success",
+  "input_count": 0,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:17:22Z",
+  "finished_at": "2026-10-15T16:30:53.015540Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": []
+}

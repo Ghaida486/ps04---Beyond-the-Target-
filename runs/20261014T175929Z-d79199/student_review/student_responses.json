@@ -1,5 +1,5 @@
 {
-  "status": "sample_reviewed_policy_rerun_in_progress",
+  "status": "sample_reviewed_policy_rerun_completed_final_content_approval_pending",
   "reviewer": null,
   "reviewed_at": null,
   "sample": [
@@ -122,5 +122,6 @@
     }
   ],
   "policy_revision_requested": "Broaden discipline relevance for useful women\u2019s competition/access accounts; reject unfocused mixed-topic episodes; preserve verification safeguards.",
-  "policy_revision_authorization": "User instructed assistant to implement proposed revision after six-item review"
+  "policy_revision_authorization": "User instructed assistant to implement proposed revision after six-item review",
+  "policy_rerun": "runs/20261015T161701Z-ddbccc"
 }

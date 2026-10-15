@@ -1,0 +1,15 @@
+{
+  "stage": "fetch_youtube",
+  "status": "success",
+  "input_count": 2,
+  "output_count": 2,
+  "started_at": "2026-10-15T16:17:03.040199Z",
+  "finished_at": "2026-10-15T16:17:08.885168Z",
+  "tools": [
+    "python3",
+    "yt-dlp"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": []
+}

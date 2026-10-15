@@ -95,3 +95,7 @@ The run needed source/attribution and intended-piece repairs; their prior output
 Costs for ChatGPT-authenticated Codex calls are unknown in per-call dollars and are not reported as zero; actual prompts, execution events and usage are retained. Local transcription has no provider API charge and consumed computer time. Consult each run's receipts and summary for actual elapsed time and stage outcomes.
 
 The [reflection draft](docs/REFLECTION_DRAFT.md) is based on observed artifacts and requires the student's own assessment/rewrite. The student must still complete the six-item review, examine the policy change, verify claims/audio and give final approval, complete another live day, produce/publish the series, record the technical demonstration and enter actual links.
+
+## October 15 update
+
+Second actual live run: [20261015T161701Z-ddbccc](runs/20261015T161701Z-ddbccc/summary.json), on a different UTC date from October 14. Status awaiting_review; revised three article drafts and three scripts passed mechanical checks. Source collection: 32 inputs, 29 unchanged and three new store items. Policy and sources changed together; see [policy comparison](runs/20261015T161701Z-ddbccc/policy_comparison.md) and [version 3 revision](docs/POLICY_REVISION_V3.md). All six source assessments are recorded. Final content approval, video production, Substack/YouTube publication, technical demonstration and final reflection remain pending. Earlier status sections describe earlier attempts.
