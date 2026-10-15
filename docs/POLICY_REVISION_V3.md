@@ -9,3 +9,9 @@ Actual new live run: `runs/20261015T161701Z-ddbccc`, compared with `runs/2026101
 A first October 15 attempt (`20261015T161648Z-66e801`) recorded DNS failures under restricted network access; the subsequent live retry used permitted network access. Preserve both attempts. Do not count a failed collection as successful coverage.
 
 This is not a controlled policy-only experiment: both policy and collected sources changed between days. Compare exact shared item IDs to identify relevant decision changes without attributing every change solely to policy.
+
+## Observed selection results
+
+The October 15 selection completed: 23 accepted, five rejected and three deferred among 31 eligible distinct items. For the reviewed cases, Julie Jones changed from reject to accept, Podium Archer changed from accept to reject, and the multisport medal list changed from reject to defer. Trajectory remains defer for evidentiary use because translation verification is unresolved; the student’s relevance acceptance is preserved separately. This is a deliberate distinction between editorial fit and claim verification.
+
+The revised briefs and articles must exclude the rejected Podium Archer episode, so earlier article 02 and its script cannot be treated as approved after this change. No human approval has been created.
