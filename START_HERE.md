@@ -47,3 +47,9 @@ The revised articles and scripts passed mechanical checks and await final studen
 - [Passing content checks](runs/20261015T161701Z-ddbccc/review.json)
 
 Narration estimates: 3.94, 3.94 and 3.83 minutes at 130 words per minute. Actual video rendering, publication and the separate technical demonstration remain outstanding.
+
+## Approved production package
+
+Ghaida approved the current corrected drafts in chat on October 15. The package was generated against the matching passing review. [Open the production package](runs/20261015T161701Z-ddbccc/package/manifest.json), [approval record](runs/20261015T161701Z-ddbccc/approval.json), and [publication links to fill after publishing](runs/20261015T161701Z-ddbccc/package/publication_links.json).
+
+The package contains three article files, three video scripts and source notes. Videos have not been rendered, and no Substack or YouTube publications are claimed. Earlier pending-approval notes describe the earlier review stage. Next: produce the videos in Google Vids or HeyGen, publish and cross-link each pair, then record the separate technical demonstration.
