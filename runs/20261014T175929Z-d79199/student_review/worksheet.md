@@ -84,6 +84,8 @@ Accept. This interview is relevant to Beyond the Target because Paige Pearce exp
 
 ## Policy revision
 
-After reviewing the sample, state one concrete rule you want changed, why, and what difference you expect. Preserve the policy before/after and rerun the affected stages.
+Broaden the relevance rule to include women’s field and 3D competition stories when they offer useful evidence about access, participation or progression. Do not reject an otherwise useful story solely because it is not target archery, but explain the discipline differences. Also reject mixed-topic episodes when unrelated discussion outweighs their useful archery content for this audience.
 
-_To be completed by the student._
+This revision follows my acceptance of Julie Jones’s story and rejection of the unfocused Podium Archer episode. Trajectory remains relevant, but its translation must be verified before using specific claims. A broad medal list can remain deferred for a specific later fact-checking purpose.
+
+Before: `config/editorial_policy-v2.md`. After: `config/editorial_policy.md` (version 3). The affected stages are being rerun in the October 15 live run; observed results and limitations will be recorded separately.
