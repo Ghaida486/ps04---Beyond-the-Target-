@@ -1,3 +1,13 @@
+# Current validation — 15 October 2026
+
+Ten isolated contract tests passed with `python3 -m unittest discover -s tests -v`. Tests cover version/duplicate storage, freshness exclusions, failed collection receipts, stale approval, missing content, insufficient evidence, credential removal, aggregator identity, substantive extraction and preserving student judgment. Fixtures are synthetic and do not count as collected evidence.
+
+All four finished MP4 files passed full decoding. Actual publication statuses and cross-links were checked in the signed-in browser; the student reported all videos working. Outside-browser retrieval could not fetch the seven links and provides no anonymous-access result. Detailed independent listening remains unverified.
+
+## Historical implementation checks
+
+The following entries describe earlier states and are superseded by the current status above.
+
 # Validation — 14 October 2026
 
 - Python helpers compiled successfully with Python 3.14.7.

@@ -1,0 +1,17 @@
+{
+  "stage": "write_video_scripts",
+  "status": "success",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-14T18:12:22.348710Z",
+  "finished_at": "2026-10-14T18:21:18.721246Z",
+  "tools": [
+    "python3",
+    "codex-cli",
+    "codex-cli",
+    "codex-cli"
+  ],
+  "cost_usd": null,
+  "cost_is_estimate": false,
+  "errors": []
+}

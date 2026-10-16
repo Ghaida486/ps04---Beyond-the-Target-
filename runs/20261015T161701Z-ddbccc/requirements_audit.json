@@ -1,0 +1,267 @@
+{
+  "run_id": "20261015T161701Z-ddbccc",
+  "checked_at": "2026-10-16T00:42:56.975681Z",
+  "not_a_grade": true,
+  "requirements": [
+    {
+      "requirement": "12 distinct eligible items",
+      "observed": 31,
+      "mechanical_minimum_met": true,
+      "limitation": "Meaningfulness, provenance and original publication still require editorial judgment."
+    },
+    {
+      "requirement": "six independent producers",
+      "observed": 7,
+      "mechanical_minimum_met": true,
+      "limitation": "Producer IDs alone do not establish independent corroboration of a claim."
+    },
+    {
+      "requirement": "two of each required input type",
+      "observed": {
+        "feed": 26,
+        "podcast": 2,
+        "youtube": 3
+      },
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "draft and reference checks",
+      "observed": {
+        "review_id": "e498d02c0d0dc9b409af16012441f9b6b0596d3b0203940ac1368ece001ee428",
+        "passed": true,
+        "issues": [
+          {
+            "artifact": "01",
+            "severity": "warning",
+            "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+          },
+          {
+            "artifact": "02",
+            "severity": "warning",
+            "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+          },
+          {
+            "artifact": "03",
+            "severity": "warning",
+            "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+          }
+        ],
+        "as_of_date": "2026-10-15",
+        "narration_word_counts": {
+          "01": 512,
+          "02": 512,
+          "03": 498
+        },
+        "approx_minutes_at_130_words_per_minute": {
+          "01": 3.94,
+          "02": 3.94,
+          "03": 3.83
+        }
+      },
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "two successful live days",
+      "observed": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "student editorial sample review",
+      "observed": "completed response form",
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "inspected policy revision and affected-stage rerun",
+      "observed": {
+        "review_record": "runs/20261015T161701Z-ddbccc/student_review/student_responses.json",
+        "before": "config/editorial_policy-v2.md",
+        "after": "config/editorial_policy.md",
+        "revision_record": "docs/POLICY_REVISION_V3.md",
+        "rerun_comparison": "runs/20261015T161701Z-ddbccc/policy_comparison.md",
+        "note": "Direct student policy revision authorization is preserved in source_record. Both source collection and policy changed; this was not a policy-only controlled experiment."
+      },
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "matching student approval",
+      "observed": {
+        "review_id": "e498d02c0d0dc9b409af16012441f9b6b0596d3b0203940ac1368ece001ee428",
+        "decision": "approve",
+        "reviewer": "Ghaida486",
+        "reviewed_at": "2026-10-15T16:45:30.833969Z",
+        "notes": "Student explicitly stated \"ok approved\" in chat after receiving the assistant content review, disclosed verification limitations, and corrected drafts. Approval applies to these current three article drafts and video scripts for production preparation; rendered videos and platform publications remain outstanding.",
+        "authorization_source": "Direct student message in this chat"
+      },
+      "mechanical_minimum_met": true
+    },
+    {
+      "requirement": "three published article/video pairs",
+      "observed": [
+        {
+          "piece_id": "01",
+          "substack_url": "https://ghaidaaljuhani.substack.com/p/new-winners-different-pathways-what",
+          "youtube_url": "https://youtu.be/DCXB8fzMp9k"
+        },
+        {
+          "piece_id": "02",
+          "substack_url": "https://ghaidaaljuhani.substack.com/p/what-survives-scrutiny-when-athletes",
+          "youtube_url": "https://youtu.be/FIagOjRQ5vw"
+        },
+        {
+          "piece_id": "03",
+          "substack_url": "https://ghaidaaljuhani.substack.com/p/from-eligibility-to-attendance-what",
+          "youtube_url": "https://youtu.be/n3WfhCMNlc0"
+        }
+      ],
+      "mechanical_minimum_met": true,
+      "limitation": "Entered links must also be opened and checked for course-staff access."
+    },
+    {
+      "requirement": "Google Vids/HeyGen video production and separate technical demo",
+      "observed": {
+        "technical_demo": {
+          "duration_seconds": 279.462404,
+          "resolution": "1920x1080",
+          "narration": "macOS Samantha synthetic speech, disclosed verbally and on screen",
+          "format": "Narrated retained-evidence walkthrough; no claim of live execution or student voice",
+          "chapters": [
+            {
+              "title": "Purpose and published outputs",
+              "start_seconds": 0,
+              "duration_seconds": 30.762041
+            },
+            {
+              "title": "Architecture and entry point",
+              "start_seconds": 30.76,
+              "duration_seconds": 49.974104
+            },
+            {
+              "title": "A source-to-claim trace",
+              "start_seconds": 80.74,
+              "duration_seconds": 46.162676
+            },
+            {
+              "title": "Two days, duplicate handling and recovery",
+              "start_seconds": 126.9,
+              "duration_seconds": 52.161361
+            },
+            {
+              "title": "Human corrections and policy changes",
+              "start_seconds": 179.06,
+              "duration_seconds": 40.15288
+            },
+            {
+              "title": "Tradeoff, approval and publication",
+              "start_seconds": 219.21,
+              "duration_seconds": 60.202902
+            }
+          ],
+          "full_decode_check": "passed",
+          "publication_url": "https://youtu.be/BR01y6eM5SM",
+          "limitations": [
+            "Independent listening/pronunciation check remains",
+            "Anonymous course-staff access not independently checked"
+          ],
+          "visibility": "unlisted",
+          "youtube_checks": "No issues found",
+          "publication_verified": "YouTube Video published confirmation, 2026-10-15",
+          "student_playback_report": "Student stated all videos worked in chat on 2026-10-15; sign-in context and detailed pronunciation review not specified."
+        },
+        "audience_videos": {
+          "platform": "HeyGen directly",
+          "as_of_date": "2026-10-15",
+          "presenter": "Beyond the Target Presenter",
+          "voice": "Noelle - Warm & Soothing",
+          "videos": [
+            {
+              "piece_id": "01",
+              "heygen_url": "https://app.heygen.com/videos/6c6a5fde1f4c44b6894d61e6be6e2669",
+              "raw_file": "01-heygen.mp4",
+              "raw_duration_seconds": 206.68,
+              "render_status": "complete",
+              "transcript_matches_approved_narration": true,
+              "final_file": "01-beyond-the-target.mp4",
+              "final_duration_seconds": 214.68,
+              "final_streams": [
+                {
+                  "codec_type": "video",
+                  "width": 1918,
+                  "height": 1080
+                },
+                {
+                  "codec_type": "audio"
+                }
+              ],
+              "finishing": "Persistent AI disclosure and 8-second source-credit slate added locally after HeyGen production",
+              "youtube_url": "https://youtu.be/DCXB8fzMp9k",
+              "youtube_visibility": "unlisted",
+              "youtube_description_saved": true,
+              "substack_url": "https://ghaidaaljuhani.substack.com/p/new-winners-different-pathways-what",
+              "article_video_cross_links_saved": true
+            },
+            {
+              "piece_id": "02",
+              "render_status": "complete",
+              "title": "Beyond the Target 02 — What the evidence supports",
+              "heygen_url": "https://app.heygen.com/videos/a6743f6b18f94b0fa1d79aeddfe47ea2",
+              "final_file": "02-beyond-the-target.mp4",
+              "final_duration_seconds": 206.04,
+              "final_streams": [
+                {
+                  "codec_type": "video",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "codec_type": "audio"
+                }
+              ],
+              "transcript_matches_approved_narration": true,
+              "finishing": "Persistent AI disclosure and 8-second source-credit slate added locally after HeyGen production",
+              "youtube_url": "https://youtu.be/FIagOjRQ5vw",
+              "youtube_visibility": "unlisted",
+              "youtube_description_saved": true,
+              "substack_url": "https://ghaidaaljuhani.substack.com/p/what-survives-scrutiny-when-athletes",
+              "article_video_cross_links_saved": true
+            },
+            {
+              "piece_id": "03",
+              "render_status": "complete",
+              "title": "Beyond the Target 03 — Eligibility and usable access",
+              "heygen_url": "https://app.heygen.com/videos/5f40ef8f75ad4f7aa9b393b331d65dd7",
+              "final_file": "03-beyond-the-target.mp4",
+              "final_duration_seconds": 216.0,
+              "final_streams": [
+                {
+                  "codec_type": "video",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "codec_type": "audio"
+                }
+              ],
+              "transcript_matches_approved_narration": true,
+              "finishing": "Persistent AI disclosure and 8-second source-credit slate added locally after HeyGen production",
+              "youtube_url": "https://youtu.be/n3WfhCMNlc0",
+              "youtube_visibility": "unlisted",
+              "youtube_description_saved": true,
+              "substack_url": "https://ghaidaaljuhani.substack.com/p/from-eligibility-to-attendance-what",
+              "article_video_cross_links_saved": true
+            }
+          ],
+          "publication_status": "Three free-access Substack articles and three unlisted YouTube videos published and cross-linked.",
+          "note": "Raw files are generated in HeyGen; final edits add disclosure and source credits. Independent pronunciation/audio review remains outstanding.",
+          "youtube_verification": "YouTube Studio Channel content visibly showed all three videos as Unlisted with no notices on 2026-10-15. Descriptions saved with sources, AI disclosure and series links. Anonymous playback not independently checked.",
+          "access_check": "All three Substack post pages opened with article content and matching YouTube embeds in the signed-in browser. Audience Everyone selected; email/app delivery disabled. Anonymous access not independently checked."
+        }
+      },
+      "mechanical_minimum_met": true,
+      "limitation": "Recorded URLs and durations do not certify anonymous access or independent pronunciation review."
+    }
+  ],
+  "accepted_decisions": 23
+}

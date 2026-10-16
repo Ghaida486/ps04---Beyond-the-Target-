@@ -1,0 +1,17 @@
+{
+  "stage": "select_items",
+  "status": "failed",
+  "input_count": 28,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:16:50.955058Z",
+  "finished_at": "2026-10-15T16:16:51.215197Z",
+  "tools": [
+    "python3",
+    "codex-cli"
+  ],
+  "cost_usd": null,
+  "cost_is_estimate": false,
+  "errors": [
+    "Codex inference failed; inspect retained execution log and ChatGPT login/usage allowance. No API fallback."
+  ]
+}

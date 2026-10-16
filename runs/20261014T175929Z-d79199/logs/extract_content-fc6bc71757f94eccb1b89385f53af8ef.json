@@ -1,0 +1,17 @@
+{
+  "stage": "extract_content",
+  "status": "success",
+  "input_count": 32,
+  "output_count": 32,
+  "started_at": "2026-10-14T17:59:36.719919Z",
+  "finished_at": "2026-10-14T18:00:28.106806Z",
+  "tools": [
+    "python3",
+    "yt-dlp",
+    "caption-failure-recovered-by-local-transcription",
+    "faster-whisper:base"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": []
+}

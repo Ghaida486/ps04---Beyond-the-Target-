@@ -1,0 +1,9 @@
+{
+  "label": "Same-input store replay; not a second-day live run",
+  "counts": {
+    "new": 0,
+    "changed": 0,
+    "unchanged": 32
+  },
+  "duplicate_versions_created": 0
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "filter_items",
+  "status": "success",
+  "input_count": 38,
+  "output_count": 28,
+  "started_at": "2026-10-14T18:00:28.342064Z",
+  "finished_at": "2026-10-14T18:00:28.343190Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "fetch_podcasts",
+  "status": "failed",
+  "input_count": 2,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:16:50.297008Z",
+  "finished_at": "2026-10-15T16:16:50.308213Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": [
+    "ladies-on-the-line: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "podium-archer: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ]
+}

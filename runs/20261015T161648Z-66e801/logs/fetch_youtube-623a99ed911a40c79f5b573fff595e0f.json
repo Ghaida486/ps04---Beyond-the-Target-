@@ -1,0 +1,18 @@
+{
+  "stage": "fetch_youtube",
+  "status": "failed",
+  "input_count": 2,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:16:49.056741Z",
+  "finished_at": "2026-10-15T16:16:50.232991Z",
+  "tools": [
+    "python3",
+    "yt-dlp"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": [
+    "world-archery-trajectory: yt-dlp failed: ovided, or not known). Retrying (2/3)...\nWARNING: [youtube] HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known). Retrying (3/3)...\nERROR: [youtube] mETK86QDzrY: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))\n",
+    "usa-archery-pearce: yt-dlp failed: ovided, or not known). Retrying (2/3)...\nWARNING: [youtube] HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known). Retrying (3/3)...\nERROR: [youtube] g5YoOmIQ9B0: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))\n"
+  ]
+}

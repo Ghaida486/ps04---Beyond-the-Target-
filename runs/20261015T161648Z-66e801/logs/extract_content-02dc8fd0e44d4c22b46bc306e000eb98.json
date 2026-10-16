@@ -1,0 +1,14 @@
+{
+  "stage": "extract_content",
+  "status": "success",
+  "input_count": 0,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:16:50.550479Z",
+  "finished_at": "2026-10-15T16:16:50.643623Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": []
+}

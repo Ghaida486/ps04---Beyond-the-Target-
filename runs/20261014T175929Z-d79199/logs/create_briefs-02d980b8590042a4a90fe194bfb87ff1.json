@@ -1,0 +1,15 @@
+{
+  "stage": "create_briefs",
+  "status": "success",
+  "input_count": 28,
+  "output_count": 3,
+  "started_at": "2026-10-14T18:07:17.054495Z",
+  "finished_at": "2026-10-14T18:09:38.471614Z",
+  "tools": [
+    "python3",
+    "codex-cli"
+  ],
+  "cost_usd": null,
+  "cost_is_estimate": false,
+  "errors": []
+}

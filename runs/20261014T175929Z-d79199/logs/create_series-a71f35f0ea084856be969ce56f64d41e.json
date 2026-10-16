@@ -1,0 +1,16 @@
+{
+  "stage": "create_series",
+  "status": "failed",
+  "input_count": 0,
+  "output_count": 0,
+  "started_at": "2026-10-14T18:00:28Z",
+  "finished_at": "2026-10-14T18:03:34.060278Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": [
+    "One or more coordinated components failed; inspect component receipts"
+  ]
+}

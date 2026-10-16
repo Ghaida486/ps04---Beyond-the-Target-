@@ -1,0 +1,8 @@
+{
+  "review_record": "runs/20261015T161701Z-ddbccc/student_review/student_responses.json",
+  "before": "config/editorial_policy-v2.md",
+  "after": "config/editorial_policy.md",
+  "revision_record": "docs/POLICY_REVISION_V3.md",
+  "rerun_comparison": "runs/20261015T161701Z-ddbccc/policy_comparison.md",
+  "note": "Direct student policy revision authorization is preserved in source_record. Both source collection and policy changed; this was not a policy-only controlled experiment."
+}

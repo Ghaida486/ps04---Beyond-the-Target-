@@ -1,0 +1,20 @@
+{
+  "stage": "fetch_feeds",
+  "status": "failed",
+  "input_count": 5,
+  "output_count": 0,
+  "started_at": "2026-10-15T16:16:48.905705Z",
+  "finished_at": "2026-10-15T16:16:48.954487Z",
+  "tools": [
+    "python3"
+  ],
+  "cost_usd": 0,
+  "cost_is_estimate": false,
+  "errors": [
+    "bow-international-written: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "world-archery-rss: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "usa-archery-rss: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "indian-express-rss: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "times-of-india-rss: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ]
+}

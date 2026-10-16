@@ -1,0 +1,48 @@
+{
+  "duration_seconds": 279.462404,
+  "resolution": "1920x1080",
+  "narration": "macOS Samantha synthetic speech, disclosed verbally and on screen",
+  "format": "Narrated retained-evidence walkthrough; no claim of live execution or student voice",
+  "chapters": [
+    {
+      "title": "Purpose and published outputs",
+      "start_seconds": 0,
+      "duration_seconds": 30.762041
+    },
+    {
+      "title": "Architecture and entry point",
+      "start_seconds": 30.76,
+      "duration_seconds": 49.974104
+    },
+    {
+      "title": "A source-to-claim trace",
+      "start_seconds": 80.74,
+      "duration_seconds": 46.162676
+    },
+    {
+      "title": "Two days, duplicate handling and recovery",
+      "start_seconds": 126.9,
+      "duration_seconds": 52.161361
+    },
+    {
+      "title": "Human corrections and policy changes",
+      "start_seconds": 179.06,
+      "duration_seconds": 40.15288
+    },
+    {
+      "title": "Tradeoff, approval and publication",
+      "start_seconds": 219.21,
+      "duration_seconds": 60.202902
+    }
+  ],
+  "full_decode_check": "passed",
+  "publication_url": "https://youtu.be/BR01y6eM5SM",
+  "limitations": [
+    "Independent listening/pronunciation check remains",
+    "Anonymous course-staff access not independently checked"
+  ],
+  "visibility": "unlisted",
+  "youtube_checks": "No issues found",
+  "publication_verified": "YouTube Video published confirmation, 2026-10-15",
+  "student_playback_report": "Student stated all videos worked in chat on 2026-10-15; sign-in context and detailed pronunciation review not specified."
+}
