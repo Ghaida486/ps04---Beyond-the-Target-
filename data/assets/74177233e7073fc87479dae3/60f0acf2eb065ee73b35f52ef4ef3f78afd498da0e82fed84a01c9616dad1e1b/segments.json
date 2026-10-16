@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "segment_id": "1",
+    "start_seconds": 7.06,
+    "end_seconds": 14.56,
+    "text": "The first round of the archery Premier League season 2 is done with every team having faced the other ones."
+  },
+  {
+    "segment_id": "2",
+    "start_seconds": 14.56,
+    "end_seconds": 24.36,
+    "text": "Tonight the reverse fixtures begin giving some teams a chance to redeem themselves while others look to extend their leads."
+  },
+  {
+    "segment_id": "3",
+    "start_seconds": 24.36,
+    "end_seconds": 33.06,
+    "text": "So expect plenty more twists and turns as round 2 gets underway right here in Hyderabad."
+  },
+  {
+    "segment_id": "4",
+    "start_seconds": 33.06,
+    "end_seconds": 37.86,
+    "text": "We are ready to welcome you to the archery Premier League season 2."
+  }
+]

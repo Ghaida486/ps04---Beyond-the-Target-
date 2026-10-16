@@ -24,40 +24,40 @@
     "version_id": "4ac978658a18376084002428de83f6b2a69ba511ec323f3034702d098e8dcb33",
     "text_path": "data/assets/7eadc0cfd63a833c80df15dc/4ac978658a18376084002428de83f6b2a69ba511ec323f3034702d098e8dcb33/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "5681f189acc64f5e20f622d74a42eb572ee9669f32d4fa2a311d73a7916bc019",
-    "text_export_sha256": "4029d7a4d90b578dea20b60da9b8fc49a0b2efabb8609baae917e36f45cb8482"
+    "text_export_sha256": "c71d0f702db7e242c396703574335069f5290611c020cdd33556b55177d4722d"
   },
   {
     "item_id": "feed-285f12b591a5c750277aa2a1",
     "version_id": "032c408657579cb85979cbe67592dcb3b3fd18479488bd7c0d78c464bd192baa",
     "text_path": "data/assets/0b05439ae185f6487527fb60/032c408657579cb85979cbe67592dcb3b3fd18479488bd7c0d78c464bd192baa/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "21546e37bb515cacc2122c31793548373ad4d63d7001e2f7b545ed580e89affd",
-    "text_export_sha256": "34ef62c0547ec7bbdb0f712e9a412dd3644b86b11daff92ef2ad2f27e4a6db8a"
+    "text_export_sha256": "880443d2590057db590b577072ba746a123d7cc0ccf615375336ef61d894fcf9"
   },
   {
     "item_id": "feed-353a1eca421da8bbd8d6419b",
     "version_id": "220f1d64088397695863a9398bb45defc85b8c991cd2c2ad94b83ba45a992ba0",
     "text_path": "data/assets/9943f6a0b98192d710a4dc88/220f1d64088397695863a9398bb45defc85b8c991cd2c2ad94b83ba45a992ba0/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "777a73b7534cf01c3badf6f952cabb1ced3c183d2b8fb3861300e41ee334e58f",
-    "text_export_sha256": "572f50c0c152d799b3611ed62a56022f78bf00022448e60fbfa53f7f678d90da"
+    "text_export_sha256": "5ab461bfc294b23d482fde649cc9463c2125b8d772b10bbad40e6fb81b7038f2"
   },
   {
     "item_id": "feed-4a06e66b5e696214ffd6d574",
     "version_id": "9af4cf0cda4cfb0e94b286b90a0b0cc011ee9accbd1e1dee0c0685d762a82d9d",
     "text_path": "data/assets/df6bdf0d6a62c087a7ed1e39/9af4cf0cda4cfb0e94b286b90a0b0cc011ee9accbd1e1dee0c0685d762a82d9d/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "a54f6544c874f5897516427039bb88c95e01b8136d425e56b793b6816caea348",
-    "text_export_sha256": "823c04bd5725b6fe3d0a1221ce5f57e5488567aa6df3f0f41b42419b32a756b3"
+    "text_export_sha256": "f85f52bff276ebc02ed3048caab3ad5cac8193155d8e97ac1e97a319f35e449f"
   },
   {
     "item_id": "feed-4a24c1a6eb01734611d971d7",
@@ -84,10 +84,10 @@
     "version_id": "9b7bbccb46f9eca38d775793875301fe78f408431f7e48fa28b2618236b19c2c",
     "text_path": "data/assets/080656e1fbab16609c41f552/9b7bbccb46f9eca38d775793875301fe78f408431f7e48fa28b2618236b19c2c/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "bc7f6bd5898ae58d48b9ab181106b4c0ab2d69b043d5752038bfc2278018f4a0",
-    "text_export_sha256": "b35e2cabacc991a9bad6a8cf12840e2452b86ce82346f01a04b48fd27d5f0089"
+    "text_export_sha256": "766cc5e1a28a3f454c8961590a05e4bae80dd845b8cd67a81c89695ceab37c1c"
   },
   {
     "item_id": "feed-6c2daeccd4ecd8d1f03267a1",
@@ -104,40 +104,40 @@
     "version_id": "445a7e8841c2618aa89e636ed452dff9938fe5c047ebd39df00234315e7e3a35",
     "text_path": "data/assets/067a88bdc0b6607e9f880e29/445a7e8841c2618aa89e636ed452dff9938fe5c047ebd39df00234315e7e3a35/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "37366df351e15e58eb1c15686e6f04a6659f12d9e6241710b7ab295ba95f4506",
-    "text_export_sha256": "b1d61abc9c74544d147ca0928ff2ecc78c52d2787e9e6b5f8da8ca56e8ffe61c"
+    "text_export_sha256": "78e130417d6a63cee129fe033004c6b0cbbf71cd095d9a2b7bc8838773e91d51"
   },
   {
     "item_id": "feed-76fee9a1cec6c3d7ab2d283d",
     "version_id": "929cf77f76d3e7fc7ac0e7c945e48a70d5e5f52456f1043d4524ef17974ee349",
     "text_path": "data/assets/89021b750839d7376822e54d/929cf77f76d3e7fc7ac0e7c945e48a70d5e5f52456f1043d4524ef17974ee349/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "7300f4d54d03acde25361787a90e21efa3f5c2c7ad4a1c59d41bcbb19818017c",
-    "text_export_sha256": "d4dc86de9b0159562696f69a47080fa9b22ee80304f5427f4a91c4fd2215d3ae"
+    "text_export_sha256": "15d0baafb98590fef50e18dfaa795767b8896eff7a4ef75f5bb1d62a5e8bf56b"
   },
   {
     "item_id": "feed-7761d252fa59a0cef2fbb516",
     "version_id": "7a735c0c8c9b92a8df0b1fb065316bd10ba8715f3ec8dd49166b61fbe143b11c",
     "text_path": "data/assets/3b5c722b184d6003a4ed5e07/7a735c0c8c9b92a8df0b1fb065316bd10ba8715f3ec8dd49166b61fbe143b11c/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "11aac6146da71d0d1eab3e5d79fd9c2d742aa34f8bf06e32c958833f2d0a72f4",
-    "text_export_sha256": "30f4dc9c9188a5ce6e8e71f6112ef8ff675f09df68ac70ce48ce105cf5b0cb0b"
+    "text_export_sha256": "6d7c49b400b3abcc20324cfac653654949d401e7086b17ff945b89a9f7371f2e"
   },
   {
     "item_id": "feed-78a41ba28533e47a6df9b08f",
     "version_id": "997c1a6fb2503bc0b826de184f8b676441edb1845c04bfe6f2526a5ff73915f1",
     "text_path": "data/assets/108e251d901be1725d6eeff7/997c1a6fb2503bc0b826de184f8b676441edb1845c04bfe6f2526a5ff73915f1/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "29c1d48348c05e26bfc8aa621b0be3943d45aab3ef59d96e97f75aee859a3c84",
-    "text_export_sha256": "7e6970ba95f4e624fde6b1a8733f1dc670717c38aa49e812a35a350394d352b1"
+    "text_export_sha256": "7f5c0db7220986874022f3957407177c0ce408dd104952bee2070c4097f776aa"
   },
   {
     "item_id": "feed-8db892679781b575c04c4eaa",
@@ -154,20 +154,20 @@
     "version_id": "34297874f165ad69b2ae0fb480623dfd7edd5ba389565e388245846ac2aa0bda",
     "text_path": "data/assets/1b8ca634a1e2daabd383c8a5/34297874f165ad69b2ae0fb480623dfd7edd5ba389565e388245846ac2aa0bda/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "ee957a408dc08a8714e2e0a02ca93e811829b6d5ebfd2f05d8fcbb7372e358f9",
-    "text_export_sha256": "c00646812ea8bda5e8f5103be0bc283bf48c5c0fc3c36f362d146c49d500e361"
+    "text_export_sha256": "43f955e029ebd8f30db18cae1f0b7a1261eb41a7c27532c6ad225fbd16c163a2"
   },
   {
     "item_id": "feed-9ea519bb2a712c1df4809a29",
     "version_id": "58e7075041c107ca900178f2cec48d79d1db4f6b7a45ad05e0ee906ff93c4b54",
     "text_path": "data/assets/5971c21f40ea78d6c0f27281/58e7075041c107ca900178f2cec48d79d1db4f6b7a45ad05e0ee906ff93c4b54/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "40aa658742a09c0d40fbf274d7104ddc413bbfcdec73b630ee016640ca9cd98a",
-    "text_export_sha256": "f67b52165d7dd87535f4912ae0f57cb90c4984e4c071ebf99835398dccdbf84c"
+    "text_export_sha256": "e41b2a18991aa2dd94bd25410ee900f07884403030aa042b2046928e10966687"
   },
   {
     "item_id": "feed-abf01733df3dd93e068678b8",
@@ -184,10 +184,10 @@
     "version_id": "6300b0d8416f26c6f8eb758f03dff94690c6be4f3782e052cb7e38f1d12bca70",
     "text_path": "data/assets/82857a8babbde01ee6549f6c/6300b0d8416f26c6f8eb758f03dff94690c6be4f3782e052cb7e38f1d12bca70/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "0bd5056531f59b312ac93439191db3bc12f7658a5f7bf296efc53ead048ef4f0",
-    "text_export_sha256": "c3b5f2d2425698afc83c62dbfc10e7b591eedde8a700b5cd113333c485f7e3a1"
+    "text_export_sha256": "2d876231eb9222fb0cd90bfc9623c20698a0f728bf856958118ff290079087ec"
   },
   {
     "item_id": "feed-c328fb6dc5933ae34dcf09ee",
@@ -224,10 +224,10 @@
     "version_id": "998914a00029e4e24814878c3a65a6f8afe67b064c0ea1077b7760594fd80958",
     "text_path": "data/assets/0daede8f357e013eb8de3e8a/998914a00029e4e24814878c3a65a6f8afe67b064c0ea1077b7760594fd80958/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "06b1c79bf95b15bec5c150daf0d54a8ef75308b46d45776bf551714cbff2b124",
-    "text_export_sha256": "8ea74eb4f02460aa8db57679a085a1730adbae852027cfc5fc4a6da21309d993"
+    "text_export_sha256": "1e082d9d96a4aae40efb1656a6c2ef9daddb1042fac7919776ff0f1bf8b3bd2e"
   },
   {
     "item_id": "podcast-05eca698c520034ff541dc1b",
@@ -282,42 +282,42 @@
     "version_id": "60f0acf2eb065ee73b35f52ef4ef3f78afd498da0e82fed84a01c9616dad1e1b",
     "text_path": "data/assets/74177233e7073fc87479dae3/60f0acf2eb065ee73b35f52ef4ef3f78afd498da0e82fed84a01c9616dad1e1b/text.txt",
     "segments_path": "data/assets/74177233e7073fc87479dae3/60f0acf2eb065ee73b35f52ef4ef3f78afd498da0e82fed84a01c9616dad1e1b/segments.json",
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "1767a6431ef2009373bde1f7ad246e664ce0df4403112844c5815857d0bb31b0",
-    "text_export_sha256": "77f275956379dd547521a7633c15267b0283ec58b87740c3cc2ef407934f968d",
+    "text_export_sha256": "9ae0520d145a3ae5fb0c34f7e2ca5f58c0442b82c0cfbfb15bf4eb316d8ad0bf",
     "segments_original_sha256": "6a2adebd6d4ea71e44be0fc0632a220cef8e49e8b96de3094533d0043747690f",
-    "segments_export_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    "segments_export_sha256": "9c5f15cea8c843704e0de784e9ae647cc9b1c70a7ea3395a1f23392792458b09"
   },
   {
     "item_id": "feed-4a319a1cf447dd16062dbae7",
     "version_id": "14a84895b5ac45d377a009fa0aa495b467bbd64ca0365a4bbe358fd5cc77e142",
     "text_path": "data/assets/e9e0f479023f4781582ae20e/14a84895b5ac45d377a009fa0aa495b467bbd64ca0365a4bbe358fd5cc77e142/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "81a388d58c1bfc94fff06c9fa98a14145d2d86da74c027c67435a1531f8f4cb9",
-    "text_export_sha256": "f7b588ae47b7d9b3db6b2c9fa3d7b7f55c87ea50f913b297ba8faefecd5af9b4"
+    "text_export_sha256": "1d0963234afcc800455fbb2edb441f57ef61c8d5862cbe0df9cbfe3d21b43abb"
   },
   {
     "item_id": "feed-7ccbdf5bfd3b46d9ad47440d",
     "version_id": "4bd3bcbaeddb7fa7d46d583ef99175777c9887e59f4dab87f2f23632056017bf",
     "text_path": "data/assets/27d5ee0efb8821c65501851b/4bd3bcbaeddb7fa7d46d583ef99175777c9887e59f4dab87f2f23632056017bf/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "a81ca8b2d2651284875344bcf34ae058df317072f1c779d97925b4f7ccb9c080",
-    "text_export_sha256": "d6f3f42d34f5ad15f517b24116a744ee8b639072795332313eade1a6de5d12b2"
+    "text_export_sha256": "28cc34962587545687e2ee34b0f9df3b1ea3d6699aa7ef9979a5352178258e80"
   },
   {
     "item_id": "feed-b66e922119356ccb54b99862",
     "version_id": "bf8d1ae1c1daa3ff7f775b0b6a35425a8bbfb12c3fec770bccb0f760dce6ebd7",
     "text_path": "data/assets/33b343f5e299141154769269/bf8d1ae1c1daa3ff7f775b0b6a35425a8bbfb12c3fec770bccb0f760dce6ebd7/text.txt",
     "segments_path": null,
-    "export_scope": "Only cited claim-support excerpts; non-cited candidate files contain provenance only",
+    "export_scope": "Non-cited eligible candidate: bounded representative retained-text/recognition sample, not a full source or approved factual claim",
     "full_original_retained_locally": true,
     "text_original_sha256": "c75af4296433ecda9b0b46084d82e88f3456b78b3538e0f8e6d6fc77bd867533",
-    "text_export_sha256": "da0da3ce42e454969a4bb50669165854c8dbe476776f085888f6844f442270e3"
+    "text_export_sha256": "e4feac78d441a62765aca350006a069678f9e6b56449973875f7e8871faeebca"
   },
   {
     "item_id": "feed-13267ae4f15d514d4fd3dfa0",

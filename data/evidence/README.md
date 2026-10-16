@@ -11,4 +11,4 @@ bash data/store.sh get ITEM_ID VERSION_ID
 
 Do not run a mutating replay against the submitted index merely to inspect it. `python3 tools/verify_submission.py` reconstructs a separate index in a temporary copy and verifies replay behavior without changing this file or historical run artifacts.
 
-Public text/segment assets contain labeled claim-support excerpts. Collected records not cited in the series have provenance-only text files; they must not be mistaken for complete source content. Full originals remain in the local archive. Regenerating a source from its URL can produce a different version if the publisher has edited it.
+Public text/segment assets contain labeled claim-support excerpts. Non-cited eligible candidates have bounded representative text or recognition samples; excluded corpus records have provenance-only files. Neither must be mistaken for complete source content or a verified published claim. Full originals remain in the local archive. Regenerating a source from its URL can produce a different version if the publisher has edited it.
