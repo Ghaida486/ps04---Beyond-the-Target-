@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-10-16T01:01:26.612065+00:00",
+  "checked_at": "2026-10-16T04:39:58.004213+00:00",
   "passed": true,
   "required_scripts": 16,
+  "retained_asset_paths_checked": 46,
+  "stored_versions_resolved": 41,
+  "latest_index_records": 41,
+  "index_sha256": "69ba98d23dd02ba4155a2e8010a12daad5f11b9f08f9cee95f3be81c00d24f9f",
   "runs": [
     {
       "run_id": "20261014T175929Z-d79199",

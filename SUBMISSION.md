@@ -135,6 +135,8 @@ python3 tools/verify_submission.py
 
 The verifier runs the actual `data/store.sh` and `processing/filter_items.sh` in a disposable copy. Starting from the first-day corpus, it reproduces the second-day three new items and 29 unchanged inputs; a second replay yields 32 unchanged inputs. The freshness result is exactly the retained 31-item eligible set with ten out-of-window exclusions. It also checks all sixteen scripts, both days’ configuration/prompt snapshots, claim-to-passage references, review coverage, publication links and duration/length targets. It makes no network or model calls and does not touch the production evidence index or student approval. [Inspect the measured report](docs/REPRODUCIBILITY_REPORT.json). GitHub Actions is configured to run these same commands on pushes and pull requests.
 
+The [requirement-to-evidence map](docs/REQUIREMENTS_MATRIX.md) identifies the repository record for each README requirement. The October 16 audit also resolves all 46 retained asset paths in the submitted item/corpus streams and retrieves all 41 referenced versions through the committed store index.
+
 The public-excerpt content check has no blocking errors; its new fingerprint is kept separately from the historical full-archive approval. [Inspect the export check](docs/PUBLIC_EXPORT_CONTENT_CHECK.json). An automated transcription cross-check of all four final MP4 audio tracks is also retained in [audio-review](publishing/production/audio-review). Recognition differences flag proper names, number spellings and homophones for listening; they are not proof of pronunciation correctness.
 
 ## Evidence and Run History
@@ -179,10 +181,10 @@ The three audience videos were generated directly in HeyGen using a fictional pr
 
 Production records and narration are in [publishing/production](publishing/production). Article/video cross-links were saved in both directions. All three articles were published for Everyone with email/app delivery disabled; all four YouTube videos are unlisted. YouTube reported no issues during upload checks. The student subsequently reported that all videos worked. That confirms a user playback report, not a documented word-by-word audio audit.
 
-Validation: thirteen automated tests passed on October 15. Full MP4 decode checks passed for all four final videos. External web retrieval could not fetch the seven publication links, so it provided no independent anonymous-access result. No broken-link conclusion is drawn from that tool failure.
+Validation: sixteen automated tests passed in the October 16 audit. Full MP4 decode checks passed for all four final videos. External web retrieval could not fetch the seven publication links, so it provided no independent anonymous-access result. No broken-link conclusion is drawn from that tool failure.
 
 Remaining verification limitation: article access was confirmed by the student after the private-browser check instructions; a detailed independent pronunciation/name audit has not been certified. No course-portal submission has been performed. The student will submit the repository.
 
 ## Evidence Export and Reuse Limits
 
-Both live runs include their configuration and prompt snapshots, collector streams, normalized records, eligible inventories and corpus exports. Referenced source paths resolve to labeled supporting excerpts and timestamp segments; full source assets and the operational SQLite index remain in the local archive. See [LOCAL_EVIDENCE.md](docs/LOCAL_EVIDENCE.md) and [index reconstruction](data/evidence/README.md). Historical approval fingerprints refer to the complete original local evidence; the public excerpt export is not byte-identical to that archive.
+Both live runs include their configuration and prompt snapshots, collector streams, normalized records, eligible inventories and corpus exports. Referenced source paths resolve to labeled supporting excerpts and timestamp segments; the operational SQLite metadata index is included at `data/evidence/index.sqlite3`, while complete source text and media remain in the local archive. See [LOCAL_EVIDENCE.md](docs/LOCAL_EVIDENCE.md) and [index inspection and reuse](data/evidence/README.md). Historical approval fingerprints refer to the complete original local evidence; the public excerpt export is not byte-identical to that archive.

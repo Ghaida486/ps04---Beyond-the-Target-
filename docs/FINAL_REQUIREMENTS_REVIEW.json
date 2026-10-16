@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "student_article_access_report": "Student said all worked after being instructed to check the three articles in a private signed-out window. Not an assistant independent anonymous access test.",
   "article_body_word_counts_approx": [
     724,
@@ -25,7 +25,10 @@
     "Automated transcription of all four actual final audio tracks compared to authored narration",
     "Reflection rewritten around recorded editorial failure, correction, insight and measurable next improvement"
   ],
-  "automated_tests_passed": 13,
+  "automated_tests_passed": 16,
   "offline_verifier": "docs/REPRODUCIBILITY_REPORT.json",
-  "audio_cross_check": "publishing/production/audio-review/automated-audio-review.json"
+  "audio_cross_check": "publishing/production/audio-review/automated-audio-review.json",
+  "requirements_map": "docs/REQUIREMENTS_MATRIX.md",
+  "persistent_index": "data/evidence/index.sqlite3",
+  "all_submitted_asset_paths_resolve": true
 }

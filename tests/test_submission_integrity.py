@@ -14,7 +14,10 @@ class SubmissionIntegrity(unittest.TestCase):
  def test_missing_real_claim_passage_cannot_pass(self):
   run=self.root/'runs/20261015T161701Z-ddbccc'
   item=next(x for x in map(json.loads,(run/'eligible.jsonl').read_text().splitlines()) if x['version_id']=='6b913619daa120163d5cc4b59a24a5b2d24c2409d6eb8147ba86ec2b6de73c7d')
-  (self.root/item['text_path']).unlink();self.verify_fails('Missing cited text asset')
+  (self.root/item['text_path']).unlink();self.verify_fails('Missing retained asset path')
+ def test_missing_persistent_index_cannot_pass(self):
+  (self.root/'data/evidence/index.sqlite3').unlink()
+  self.verify_fails('Persistent evidence index missing')
  def test_missing_prompt_snapshot_cannot_pass(self):
   (self.root/'runs/20261015T161701Z-ddbccc/prompts/select_items.md').unlink()
   self.verify_fails('Missing actual prompt')

@@ -318,5 +318,105 @@
     "full_original_retained_locally": true,
     "text_original_sha256": "c75af4296433ecda9b0b46084d82e88f3456b78b3538e0f8e6d6fc77bd867533",
     "text_export_sha256": "da0da3ce42e454969a4bb50669165854c8dbe476776f085888f6844f442270e3"
+  },
+  {
+    "item_id": "feed-13267ae4f15d514d4fd3dfa0",
+    "version_id": "807330da4428dd723c380f9ea8d77a9dc71b51337f586b9b1c9472bffeec13d9",
+    "text_path": "data/assets/96801bdaca1e2c40bf37341b/807330da4428dd723c380f9ea8d77a9dc71b51337f586b9b1c9472bffeec13d9/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "eb0dccf084f13b1223f4129002067849d5f9384a1df13e48a18606217186270c",
+    "text_original_sha256": "59117e6238055902074b4deb892280088236fc00881043ab5e296b2a0c032fcf"
+  },
+  {
+    "item_id": "feed-1b166f125f8a92fce79cbb9f",
+    "version_id": "84e3507842b55c2ea8d17cc9e2bfc95a162269d1f01a522fe6c8153b330e4096",
+    "text_path": "data/assets/9d818a2280e7f1bd4243aaf1/84e3507842b55c2ea8d17cc9e2bfc95a162269d1f01a522fe6c8153b330e4096/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "c2c0e83aa18c2a909f12a8f4a2fb1a09260d84f990bfbcaf29cf5a90a4072d6f",
+    "text_original_sha256": "9cb55cdd2a32f838c11653d5632b1f1da3204168a8e19d1dce57d3c8f16183d8"
+  },
+  {
+    "item_id": "feed-4fcab10f62535701dc2c4902",
+    "version_id": "bb0217bb0b6e5a3b9ded4d7f46dd3c28551d4bdf052d4cb4475ea9770c5dadb9",
+    "text_path": "data/assets/ad3785d98d648e25e7ccb64c/bb0217bb0b6e5a3b9ded4d7f46dd3c28551d4bdf052d4cb4475ea9770c5dadb9/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "23a190a7d23f69722b97c3dd3e5f62f4ae061a62e010ee8e39772b4efb147ad2",
+    "text_original_sha256": "b9148331bc7b2d2c6ef6fea4574b033fe907e424ad83363014b30da75ac0606c"
+  },
+  {
+    "item_id": "feed-548dffbf643ff84392616919",
+    "version_id": "abf67c226b6ff94a9dd75ba99a9d3e16a81be9ee853d3b84ac72c24be4251bf0",
+    "text_path": "data/assets/eba1408bc998088574f6be5f/abf67c226b6ff94a9dd75ba99a9d3e16a81be9ee853d3b84ac72c24be4251bf0/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "02e8736551f8ad64763192b349ec977217e55d5763681e99e44737639e7982f7",
+    "text_original_sha256": "216d2b02a785d44c2058ad58461b8c8ce7fd2b0478ae282090279633d7d6721d"
+  },
+  {
+    "item_id": "feed-5ddc5447a5edb904ecd5fbad",
+    "version_id": "5cf0e8aabd4f90a446f9b2303ec05383e5ea3a5f44196bdc714ff15345561aa9",
+    "text_path": "data/assets/f251ae29ab500e4c5d882445/5cf0e8aabd4f90a446f9b2303ec05383e5ea3a5f44196bdc714ff15345561aa9/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "c1132c2a4ca270a47150a8a8a5effd5432a0203efbc42d2fd9f7c28bf000c7b7",
+    "text_original_sha256": "1e5c1bde8ec84b0045f83e445f1eab3c0d36a05a499720a85b74b29e83383980"
+  },
+  {
+    "item_id": "feed-b2c9fada0724d6062e133579",
+    "version_id": "73b6b4e90e7f0e0fb3a54b793965a97acb7e98ad9aaba13264e219324d3c782e",
+    "text_path": "data/assets/5029690bf95a112358754fc8/73b6b4e90e7f0e0fb3a54b793965a97acb7e98ad9aaba13264e219324d3c782e/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "4fd06f027d2a0228bcb56244ddb0df3dea3429b138a996ebd7c317756a610ce5",
+    "text_original_sha256": "d8075018321cea764abe9feac40f4a4bd7679c715e01869ea9eaf8a57b8a2e38"
+  },
+  {
+    "item_id": "feed-c63ad107731140eb067119b7",
+    "version_id": "44d13b101f65424c2834caea42373080b3cfb70d05209855f8960a3b5b9f04c7",
+    "text_path": "data/assets/86ea22ab70a7b534768258ee/44d13b101f65424c2834caea42373080b3cfb70d05209855f8960a3b5b9f04c7/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "1947883a4bd7380dcba82d1a38fca0bc8f75a6819303052b3ebdf6cf4a777760",
+    "text_original_sha256": "d61c08a8a4fade8a77a6e74ed099a170b2e360c85443b2ad234f01134dc6904e"
+  },
+  {
+    "item_id": "feed-dbc69dd3b9044a827e023894",
+    "version_id": "7b5a4f4989c18e77ff7775bb1f9f000ed4b08078139e84a70c4a40f53fe798f9",
+    "text_path": "data/assets/0375e250afeb6470e1729f4d/7b5a4f4989c18e77ff7775bb1f9f000ed4b08078139e84a70c4a40f53fe798f9/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "dedbb6339c68eaf69fe0f95123ad0ee2f6bcbe5ac773db405dd6d02161c9e0c3",
+    "text_original_sha256": "73476bf9ed762b72cec5e09efef0a65f1068a2e4f6b8e0f8004f4d36d91f656d"
+  },
+  {
+    "item_id": "feed-dde59039fc63445539b2b625",
+    "version_id": "bcbeda298ec6e37f3820d6c15e0b9e83f63a44f45f6607aceb83788b959e2c19",
+    "text_path": "data/assets/55f90442e47239599ea035d2/bcbeda298ec6e37f3820d6c15e0b9e83f63a44f45f6607aceb83788b959e2c19/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "15c9e1e1b5244397aa3fd773aa17b9e035c528681741e51862060834ab72a27f",
+    "text_original_sha256": "5cfc5b81433c546d8bb27fcf5f0a44463213e89f6bd90bb0ee05b2a7d14f19e5"
+  },
+  {
+    "item_id": "feed-fe13df202c0fee5259a7576c",
+    "version_id": "6daf2db2a1b0d727229cbec0a5f9930804d4d2cbccf7aa482108e9ad75ed825c",
+    "text_path": "data/assets/2e95e13cc8a2485dc6e7965c/6daf2db2a1b0d727229cbec0a5f9930804d4d2cbccf7aa482108e9ad75ed825c/text.txt",
+    "segments_path": null,
+    "export_scope": "Non-cited corpus record: provenance only, complete original retained locally",
+    "full_original_retained_locally": true,
+    "text_export_sha256": "e32ea2b605d492d84fc538e7b4dd20b53a938728e2bf8bd55f6ef00602fd548a",
+    "text_original_sha256": "3cf7dada2ac33db76fcbfa0d96bd0c7642a8057d8cfd9f0cf907173ced387fa7"
   }
 ]

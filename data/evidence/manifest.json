@@ -1,0 +1,7 @@
+{
+  "file": "data/evidence/index.sqlite3",
+  "sha256": "69ba98d23dd02ba4155a2e8010a12daad5f11b9f08f9cee95f3be81c00d24f9f",
+  "bytes": 172032,
+  "scope": "Copy of the operational SQLite metadata/version/observation index; full publisher text and audio are stored separately and not embedded in the database.",
+  "asset_scope": "Public assets contain labeled cited excerpts or non-cited provenance records; original-content checksums are separately documented in data/assets/EXPORT_SCOPE.json."
+}

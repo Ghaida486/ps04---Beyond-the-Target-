@@ -1,11 +1,12 @@
 {
-  "checked_at": "2026-10-16T01:02:51.426389+00:00",
+  "checked_at": "2026-10-16T04:40:36.756146+00:00",
   "test_command": "python3 -m unittest discover -s tests -v",
-  "tests_run": 13,
+  "tests_run": 16,
   "exit_code": 0,
   "test_categories": [
     "10 isolated component contracts",
-    "3 exported-submission tamper checks"
+    "4 exported-submission tamper checks",
+    "2 excerpt-cache completeness checks"
   ],
   "offline_verifier_command": "python3 tools/verify_submission.py",
   "offline_verifier_passed": true,

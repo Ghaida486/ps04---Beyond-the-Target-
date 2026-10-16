@@ -1,3 +1,11 @@
+# Current audit — 16 October 2026
+
+Sixteen automated tests pass. The expanded verifier checks all 46 retained asset paths and resolves all 41 submitted source versions through the committed SQLite index without changing its bytes. Actual component replay still reproduces 3 new / 29 unchanged inputs, then 32 unchanged inputs; filtering reproduces 31 eligible records and ten stale exclusions. See REPRODUCIBILITY_REPORT.json and REQUIREMENTS_MATRIX.md.
+
+The new tests also reject a missing persistent index and prevent public excerpts or empty transcript exports from being treated as complete cached media on a future live run.
+
+## Earlier validation history
+
 # Current validation — 15 October 2026
 
 Thirteen automated tests passed with `python3 -m unittest discover -s tests -v`. Tests cover version/duplicate storage, freshness exclusions, failed collection receipts, stale approval, missing content, insufficient evidence, credential removal, aggregator identity, substantive extraction and preserving student judgment. Fixtures are synthetic and do not count as collected evidence.

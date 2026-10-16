@@ -22,9 +22,15 @@ def inspect():
  for path in expected:
   text=Path(path).read_text();require(text.startswith('#!/usr/bin/env bash') and len(text.splitlines())>=4,path+' is not implemented')
   subprocess.run(['bash','-n',path],check=True,capture_output=True)
- dates=[];run_results=[]
+ dates=[];run_results=[];all_versions={};asset_paths=set()
  for rid in RUNS:
   r=Path('runs')/rid;meta=read(r/'run.json');dates.append(meta['as_of_date'])
+  for stream in ['items.jsonl','corpus.jsonl','eligible.jsonl']:
+   for record in rows(r/stream):
+    all_versions[(record['item_id'],record['version_id'])]=record
+    for field in ['text_path','segments_path']:
+     if record.get(field):
+      asset_paths.add(record[field]);require(Path(record[field]).is_file(),'Missing retained asset path '+record[field])
   require(meta['mode']=='live','Submitted run must be live')
   for name in ['project.json','sources.json','editorial_policy.md']:require((r/'config'/name).is_file(),'Missing exact configuration snapshot '+name)
   for name in ['select_items.md','create_briefs.md','write_articles.md','write_video_scripts.md']:require((r/'prompts'/name).is_file(),'Missing actual prompt '+name)
@@ -65,6 +71,13 @@ def inspect():
   require(link['youtube_url'] in s,'Missing article-to-video link')
   description=Path('publishing/production')/(link['piece_id']+'-youtube-description.txt');require(link['substack_url'] in description.read_text(),'Missing video-to-article link')
   link['article_words_approx']=words
+ # Verify the committed persistent index through its owning command, never direct SQL.
+ index=Path('data/evidence/index.sqlite3');require(index.is_file(),'Persistent evidence index missing')
+ index_hash=hashlib.sha256(index.read_bytes()).hexdigest();require(index_hash==read(Path('data/evidence/manifest.json'))['sha256'],'Persistent index checksum mismatch')
+ latest_index=run_stage(ROOT,['data/store.sh','list'])
+ for item_id,version_id in sorted(all_versions):
+  found=run_stage(ROOT,['data/store.sh','get',item_id,version_id]);require(len(found)==1 and found[0]['version_id']==version_id,'Stored historical version missing')
+ require(hashlib.sha256(index.read_bytes()).hexdigest()==index_hash,'Inspection changed the submitted metadata index')
  # Execute real store/filter stages against retained records in a disposable root.
  with tempfile.TemporaryDirectory(prefix='beyond-target-replay-') as temp:
   temp=Path(temp)
@@ -83,7 +96,7 @@ def inspect():
   replay_result={'label':'Offline replay on a temporary reconstructed metadata index; not a new live day or fresh model inference','second_day_changes':dict(collections.Counter(x['change'] for x in updates)),'identical_replay':dict(collections.Counter(x['change'] for x in replay)),'eligible_after_replay':len(filtered),'exclusions':dict(collections.Counter(x['reason'] for x in rows(temp/'runs/replay/exclusions.jsonl'))),'source_item_ids_new':sorted(expected_new),'production_unchanged':True}
  failed=Path('runs/20261015T161648Z-66e801/logs');failures=[read(p) for p in failed.glob('*.json') if read(p).get('status')=='failed']
  require(any('resolve' in str(x.get('errors',[])).lower() for x in failures),'Retained real DNS failure evidence missing')
- return {'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'passed':True,'required_scripts':16,'runs':run_results,'publication_pairs':links,'technical_demo_duration_seconds':technical['duration_seconds'],'isolated_replay':replay_result,'failure_receipts':len(failures),'scope':'Offline structural/reference/replay verification, not a grade, a fresh live collection, a factual audio audit, or independent web access test','evidence_scope':'Cited excerpts preserve original version identifiers; historical approval applies to the original full local archive, not the exported file bytes.'}
+ return {'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'passed':True,'required_scripts':16,'retained_asset_paths_checked':len(asset_paths),'stored_versions_resolved':len(all_versions),'latest_index_records':len(latest_index),'index_sha256':index_hash,'runs':run_results,'publication_pairs':links,'technical_demo_duration_seconds':technical['duration_seconds'],'isolated_replay':replay_result,'failure_receipts':len(failures),'scope':'Offline structural/reference/replay verification, not a grade, a fresh live collection, a factual audio audit, or independent web access test','evidence_scope':'Cited excerpts preserve original version identifiers; historical approval applies to the original full local archive, not the exported file bytes.'}
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',default='-');args=parser.parse_args()
  try:result=inspect()

@@ -16,6 +16,18 @@ class Text(HTMLParser):
         if tag in ('script','style','noscript'): self.hidden=max(0,self.hidden-1)
     def handle_data(self,data):
         if not self.hidden: self.parts.append(data)
+def retained_media_complete(item):
+    """Public review excerpts are inspectable evidence, not reusable full transcripts."""
+    try:
+        text_path=Path(item['text_path']); segment_path=Path(item['segments_path'])
+        if not text_path.is_file() or not segment_path.is_file(): return False
+        text=text_path.read_text()
+        if not text.strip() or text.startswith(('PUBLIC EVIDENCE EXCERPT','PUBLIC PROVENANCE RECORD')): return False
+        segments=read(segment_path)
+        return isinstance(segments,list) and bool(segments) and all(isinstance(s,dict) and s.get('text') and 'start_seconds' in s and 'end_seconds' in s for s in segments)
+    except (KeyError,TypeError,ValueError,OSError):
+        return False
+
 def transcript(path):
     if path.suffix=='.json':
         raw=read(path); events=raw.get('events',[]); values=[]
@@ -68,7 +80,7 @@ def main():
                 if item['kind']!='feed':
                     reuse.append({'item_id':item['item_id'],'status':'skipped_before_extraction','reason':'publication date not eligible'}); continue
             old=cache.get(item['item_id'])
-            if old and item['kind'] in ('youtube','podcast') and all(old.get(k)==item.get(k) for k in ('title','published_at','url','media_url','underlying_id')) and Path(old['text_path']).exists() and Path(old['segments_path']).exists():
+            if old and item['kind'] in ('youtube','podcast') and all(old.get(k)==item.get(k) for k in ('title','published_at','url','media_url','underlying_id')) and retained_media_complete(old):
                 emit(dict(old,retrieved_at=item['retrieved_at'])); stage.output+=1; reuse.append({'item_id':item['item_id'],'status':'reused_unchanged_media'}); continue
             work=ROOT/'data/media'/digest([item['item_id'],item['retrieved_at']])[:24]; work.mkdir(parents=True,exist_ok=True)
             segments=None
@@ -144,4 +156,4 @@ def main():
             emit(dict(item,version_id=version,text_path=relative(assets/'text.txt'),segments_path=relative(assets/'segments.json') if segments is not None else None,retained_media_dir=relative(work))); stage.output+=1
         except Exception as e: stage.error(f'{item["item_id"]}: {e}'); errors=True
     write(run/'extraction_cache.json',reuse); return stage.finish(1 if errors else 0)
-invoke(main)
+if __name__=='__main__': invoke(main)
