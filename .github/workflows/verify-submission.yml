@@ -1,0 +1,20 @@
+name: Verify submission
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Contract tests (fictional isolated fixtures)
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify real submitted evidence and replay actual components offline
+        run: python3 tools/verify_submission.py

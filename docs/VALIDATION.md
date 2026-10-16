@@ -1,8 +1,14 @@
 # Current validation — 15 October 2026
 
-Ten isolated contract tests passed with `python3 -m unittest discover -s tests -v`. Tests cover version/duplicate storage, freshness exclusions, failed collection receipts, stale approval, missing content, insufficient evidence, credential removal, aggregator identity, substantive extraction and preserving student judgment. Fixtures are synthetic and do not count as collected evidence.
+Thirteen automated tests passed with `python3 -m unittest discover -s tests -v`. Tests cover version/duplicate storage, freshness exclusions, failed collection receipts, stale approval, missing content, insufficient evidence, credential removal, aggregator identity, substantive extraction and preserving student judgment. Fixtures are synthetic and do not count as collected evidence.
 
 All four finished MP4 files passed full decoding. Actual publication statuses and cross-links were checked in the signed-in browser; the student reported all videos working. Outside-browser retrieval could not fetch the seven links and provides no independent anonymous-access result; the student later confirmed the articles worked following private-browser instructions. Detailed independent listening remains unverified.
+
+## Submission integrity and reproducibility improvements
+
+Three additional tamper tests confirm that missing cited evidence, missing prompt snapshots and a changed student approval identifier cause verification to fail. They alter only disposable test copies. The independent offline verifier executes the real store and freshness filter against retained records in a temporary root; its second-day result reproduces 3 new and 29 unchanged inputs, followed by 32 unchanged inputs on identical replay, 31 eligible records and 10 date exclusions. See REPRODUCIBILITY_REPORT.json.
+
+All four final audio tracks were transcribed locally and compared with their authored narration. Results and timestamped recognition output are in publishing/production/audio-review. Similarity ratios are not pronunciation accuracy scores; the recorded differences remain listening flags. A complete independent listening audit is not claimed.
 
 ## Historical implementation checks
 

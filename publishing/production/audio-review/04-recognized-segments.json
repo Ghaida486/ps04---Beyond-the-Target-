@@ -1,0 +1,52 @@
+[
+  {
+    "start_seconds": 0.0,
+    "end_seconds": 24.74,
+    "text": "This demonstration uses synthetic narration and shows retained project evidence, rather than a live pipeline execution. Beyond the target is a publication for female club archers progressing into competition, the system collects recent archery reporting, helps select and assess material, and produces three connected article and video pairs, its purposes to distinguish competitive achievements, formal opportunities."
+  },
+  {
+    "start_seconds": 24.74,
+    "end_seconds": 54.1,
+    "text": "and practical access without promising that an elite athlete's experience will transfer to every club archer. The entry point is run SH. It coordinates collection and series creation. The collectors handle written feeds, YouTube, and podcasts. Extraction retains substantive text or local transcriptions. Persistent storage identifies records and versions. Only the store component accesses the database. The freshness stage applies an inclusive 30-day UDC publication window."
+  },
+  {
+    "start_seconds": 54.1,
+    "end_seconds": 83.18,
+    "text": "Publication dates are kept separate from collection dates. The editorial workflow then selects items, creates briefs, writes article and video drafts, and runs checks. Policy and prompts are saved separately from implementation. A human review and approval step comes before the production package. This separation makes stages easier to inspect and rerun, but it also means that a successful mechanical check does not establish factual correctness. Here is one claim traced through the system."
+  },
+  {
+    "start_seconds": 83.18,
+    "end_seconds": 113.1,
+    "text": "The first article reports India's compound mixed team Olympic quota places, the published paragraph sites World Archery, in the retained article, claim Marker 01C2 connects that passage to the reviewed brief and its source evidence. The source describes a country's quota places. The article therefore distinguishes qualification from an athlete's eventual selection and mixed team competition from an individual compound event. This is a source supported report, followed by a bounded editorial interpretation."
+  },
+  {
+    "start_seconds": 113.1,
+    "end_seconds": 142.43,
+    "text": "The article also preserves uncertainty. The supplied sources do not fully explain the qualification timing, and two reports disagree about the recurve team final score. The score was omitted rather than choosing one account without resolution. The retained live runs occurred on October 14th and 15th. On different duty C dates, the first had 28 eligible items, the second had 31, 26 feet items, two podcasts and three YouTube items across seven producer identities."
+  },
+  {
+    "start_seconds": 142.43,
+    "end_seconds": 171.1,
+    "text": "It recorded 23 accepted decisions, 5 rejections and 3 deferrals. Producer counts do not prove independent corroboration. The second collection recorded 3 new and 29 unchanged inputs. New discovery does not necessarily mean new publication. The earlier replay recorded 32 unchanged inputs, providing evidence of duplicate handling. These replay records are distinct from the two real collection days. The failed October 15 attempt records DNS failures."
+  },
+  {
+    "start_seconds": 171.1,
+    "end_seconds": 199.07,
+    "text": "The subsequent retry completed collection that preserves incomplete coverage and recovery instead of silently treating a failure as an empty feed. The student review contains six decisions, including accepted and rejected or deferred examples. One correction rejected the mixed-topic podium archer episode, another broadened relevance to include Julie Jones's account of participation in three-dimensional archery while preserving the boundary against claiming technical transfer to target archery."
+  },
+  {
+    "start_seconds": 199.07,
+    "end_seconds": 226.58,
+    "text": "Translation safeguards remain for trajectory. The earlier policy, revised policy, authorization record and affected stage comparison are retained. Both the sources and policy changed. So this comparison is not a controlled experiment isolating the policy's effect. That limitation matters when interpreting the changed selection counts. A significant architectural trade-off was using existing codecs access for AI work and local whisper for transcription."
+  },
+  {
+    "start_seconds": 226.58,
+    "end_seconds": 255.68,
+    "text": "This avoids a separate transcription provider charge but consumes computer time and codecs allowance. For call costs are unknown, not zero. Local transcription can miss hear names and scores, and individual podcast speakers remain unresolved. Accordingly, claims use limited passages and program level attribution. The saved approval matches the review identifier. The three audience videos were produced in HeyGen, finished with AI disclosures and source credits, and published unlisted."
+  },
+  {
+    "start_seconds": 255.68,
+    "end_seconds": 279.89,
+    "text": "The three sub-stack articles are free to access and link to their matching videos. Their pages and cross links were inspected in the signed-in browser. Anonymous staff access and independent pronunciation listening still need separate checks. This technical demonstration is separate from those audience videos. The repository retains the evidence. Decisions and limitations so another person can inspect how each output was produced."
+  }
+]

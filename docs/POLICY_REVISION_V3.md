@@ -1,3 +1,5 @@
+> Historical process record. Production approval and publication were completed after the entries below; current status is in SUBMISSION.md. Earlier pending statements are preserved as chronology.
+
 # Policy revision from student review — 15 October 2026
 
 The six recorded student assessments accepted Olympic quota reporting and the USA Archery Paige Pearce interview; rejected the Podium Archer episode for mixed-topic digressions; deferred the broad medal list; and accepted the editorial relevance of Trajectory and Julie Jones’s 3D account. These are source assessments, not approval of final articles.

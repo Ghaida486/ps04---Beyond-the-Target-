@@ -45,6 +45,17 @@ flowchart TD
 
 Setup and dependencies: [SETUP.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/SETUP.md). Component contracts: [ARCHITECTURE.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/ARCHITECTURE.md).
 
+## Reproduce the submitted evidence without model access
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 tools/verify_submission.py
+```
+
+The verifier runs the actual `data/store.sh` and `processing/filter_items.sh` in a disposable copy. Starting from the first-day corpus, it reproduces the second-day three new items and 29 unchanged inputs; a second replay yields 32 unchanged inputs. The freshness result is exactly the retained 31-item eligible set with ten out-of-window exclusions. It also checks all sixteen scripts, both days’ configuration/prompt snapshots, claim-to-passage references, review coverage, publication links and duration/length targets. It makes no network or model calls and does not touch the production evidence index or student approval. [Inspect the measured report](docs/REPRODUCIBILITY_REPORT.json). GitHub Actions is configured to run these same commands on pushes and pull requests.
+
+The public-excerpt content check has no blocking errors; its new fingerprint is kept separately from the historical full-archive approval. [Inspect the export check](docs/PUBLIC_EXPORT_CONTENT_CHECK.json). An automated transcription cross-check of all four final MP4 audio tracks is also retained in [audio-review](publishing/production/audio-review). Recognition differences flag proper names, number spellings and homophones for listening; they are not proof of pronunciation correctness.
+
 ## Retained runs and evidence
 
 | Run | Actual UTC date | Elapsed time in summary | Observations |
@@ -65,7 +76,7 @@ The failed October 15 attempt records DNS failures; the subsequent retry complet
 
 ## Editorial judgment and corrections
 
-[runs/20261014T175929Z-d79199/student_review/student_responses.json](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/runs/20261014T175929Z-d79199/student_review/student_responses.json) preserves six direct student decisions with AI-assisted rationale provenance. The sample includes three AI-accepted and three AI-rejected/deferred cases. The student rejected the mixed-topic Podium Archer episode, broadened discipline relevance for Julie Jones’s 3D participation account, and retained translation safeguards for Trajectory. Relevance acceptance does not verify translated claims.
+[Completed review and original-record provenance](runs/20261015T161701Z-ddbccc/student_review/student_responses.json) preserves six direct student decisions with AI-assisted rationale provenance. The sample includes three AI-accepted and three AI-rejected/deferred cases. The student rejected the mixed-topic Podium Archer episode, broadened discipline relevance for Julie Jones’s 3D participation account, and retained translation safeguards for Trajectory. Relevance acceptance does not verify translated claims.
 
 [docs/POLICY_REVISION_V3.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/docs/POLICY_REVISION_V3.md) documents the authorized revision; [config/editorial_policy-v2.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/config/editorial_policy-v2.md) and [config/editorial_policy.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/config/editorial_policy.md) retain before/after policy. The October 15 affected stages were rerun. Sources and policy changed together, so the comparison is not a controlled policy-only experiment.
 
@@ -73,11 +84,13 @@ The disputed team-match score was removed because Indian Express and Times of In
 
 Content review: [runs/20261015T161701Z-ddbccc/assistant_content_review.md](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/runs/20261015T161701Z-ddbccc/assistant_content_review.md). Student production approval: [runs/20261015T161701Z-ddbccc/approval.json](https://github.com/Ghaida486/ps04---Beyond-the-Target-/blob/main/runs/20261015T161701Z-ddbccc/approval.json). Rendered media timing and signed-in publication status were verified. All four videos were also reported working by the student; the student also confirmed all three articles worked after being instructed to test them signed out.
 
-## Reflection draft
+## Reflection — written with AI assistance
 
-The series connects formal opportunity with usable access. A national quota or published entry rule establishes one condition; personal accounts reveal time, facilities and equipment constraints without establishing their prevalence. The useful synthesis is to ask what formal eligibility leaves unexplained.
+The central insight is that formal eligibility and usable access answer different questions. World Archery’s indoor rules identify who may enter; Julie Jones’s account and the Ladies on the Line discussion identify time and facilities as conditions of participation. Connecting them adds a question that none answers alone: what must be in place for an eligible club archer to attend? The sources support that reporting question, not a claim that access is improving or that one training arrangement causes better scores.
 
-A limitation is dependence on federation promotion and elite experience, compounded by unreliable transcription of names and translated passages. One improvement is to add direct amateur and disabled-competitor reporting and verify consequential audio passages before synthesis. Architecturally, ChatGPT-authenticated Codex inference and local Whisper avoid separate API-key billing, but consume subscription allowance and local processing time. Preserving exact evidence versions and receipts supports correction and replay. This reflection is assistant-drafted for student assessment.
+The most consequential editorial failure was accepting a long mixed-topic Podium Archer episode because relevant passages could be extracted from it. The student rejected that focus judgment. The revised policy retained Julie Jones’s 3D participation experience, rejected the unfocused episode, and distinguished Trajectory’s relevance from the reliability of its translated claims. The later briefs excluded the rejected episode. This improved editorial fit while leaving the translation problem unresolved. It also exposed a limit in numerical checks: having enough sources does not make a source useful to this audience.
+
+The architectural tradeoff is inspectability against cost and processing time. Separate collectors, immutable version identifiers and timestamp locators make a claim traceable and allow unchanged media to be reused. Local Whisper avoids a transcription-provider charge but can mishear names, and repeated inference consumes Codex allowance whose per-call dollar cost is unknown. The next improvement would be a review queue for consequential names, scores and speaker identities before brief generation, followed by direct reporting from amateur and disabled competitors. Success would be measured by fewer deferred attribution problems and clearer evidence for the practical access questions, rather than by collecting more links. This reflection is AI-assisted synthesis of recorded runs and the student’s documented source judgments; it does not invent additional personal review or interviews.
 
 ## Production and final verification
 
@@ -85,7 +98,7 @@ The three audience videos were generated directly in HeyGen using a fictional pr
 
 Production records and narration are in [publishing/production](publishing/production). Article/video cross-links were saved in both directions. All three articles were published for Everyone with email/app delivery disabled; all four YouTube videos are unlisted. YouTube reported no issues during upload checks. The student subsequently reported that all videos worked. That confirms a user playback report, not a documented word-by-word audio audit.
 
-Validation: ten isolated contract tests passed on October 15. Full MP4 decode checks passed for all four final videos. External web retrieval could not fetch the seven publication links, so it provided no independent anonymous-access result. No broken-link conclusion is drawn from that tool failure.
+Validation: thirteen automated tests passed on October 15. Full MP4 decode checks passed for all four final videos. External web retrieval could not fetch the seven publication links, so it provided no independent anonymous-access result. No broken-link conclusion is drawn from that tool failure.
 
 Remaining verification limitation: article access was confirmed by the student after the private-browser check instructions; a detailed independent pronunciation/name audit has not been certified. No course-portal submission has been performed. The student will submit the repository.
 

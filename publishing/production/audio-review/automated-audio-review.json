@@ -1,0 +1,246 @@
+{
+  "method": "Actual final MP4 audio transcribed locally with faster-whisper base.en, CPU int8, beam 5, batch 4, VAD. Compared with approved narration using normalized word-sequence alignment. Ratios are similarity scores, not accuracy/quality certificates.",
+  "status": "Automated intelligibility cross-check completed; independent listening/pronunciation judgment remains unverified.",
+  "videos": [
+    {
+      "video": "01",
+      "expected_words": 524,
+      "recognized_words": 526,
+      "sequence_alignment_ratio": 0.9924,
+      "differences": [
+        {
+          "expected": "its",
+          "recognized": "it s"
+        },
+        {
+          "expected": "pearce",
+          "recognized": "pierce"
+        },
+        {
+          "expected": "sidehill",
+          "recognized": "side hill"
+        }
+      ],
+      "interpretation": "Recognition differences are review flags, not proof of mispronunciation. Numeric spelling, British/American spelling and homophones explain many differences. No audio was altered from this automated result."
+    },
+    {
+      "video": "02",
+      "expected_words": 523,
+      "recognized_words": 521,
+      "sequence_alignment_ratio": 0.977,
+      "differences": [
+        {
+          "expected": "kumkum mohod",
+          "recognized": "kumke mohad"
+        },
+        {
+          "expected": "mohod",
+          "recognized": "mohad"
+        },
+        {
+          "expected": "programme",
+          "recognized": "program"
+        },
+        {
+          "expected": "mohod",
+          "recognized": "mohad"
+        },
+        {
+          "expected": "bow",
+          "recognized": "bo"
+        },
+        {
+          "expected": "modelling",
+          "recognized": "modeling"
+        },
+        {
+          "expected": "forty five",
+          "recognized": "45"
+        },
+        {
+          "expected": "bow",
+          "recognized": "bo"
+        },
+        {
+          "expected": "park s",
+          "recognized": "parks"
+        },
+        {
+          "expected": "mathews",
+          "recognized": "matthews"
+        }
+      ],
+      "interpretation": "Recognition differences are review flags, not proof of mispronunciation. Numeric spelling, British/American spelling and homophones explain many differences. No audio was altered from this automated result."
+    },
+    {
+      "video": "03",
+      "expected_words": 521,
+      "recognized_words": 522,
+      "sequence_alignment_ratio": 0.9722,
+      "differences": [
+        {
+          "expected": "s",
+          "recognized": ""
+        },
+        {
+          "expected": "recognised",
+          "recognized": "recognized"
+        },
+        {
+          "expected": "sixteen",
+          "recognized": "16"
+        },
+        {
+          "expected": "eighteen metres",
+          "recognized": "18 meters"
+        },
+        {
+          "expected": "barebow",
+          "recognized": "bear bow"
+        },
+        {
+          "expected": "line s",
+          "recognized": "lines"
+        },
+        {
+          "expected": "childcare",
+          "recognized": "child care"
+        },
+        {
+          "expected": "programme",
+          "recognized": "program"
+        },
+        {
+          "expected": "programme",
+          "recognized": "program"
+        },
+        {
+          "expected": "eighteen",
+          "recognized": "18"
+        },
+        {
+          "expected": "fifteen",
+          "recognized": "15"
+        },
+        {
+          "expected": "childcare",
+          "recognized": "child care"
+        }
+      ],
+      "interpretation": "Recognition differences are review flags, not proof of mispronunciation. Numeric spelling, British/American spelling and homophones explain many differences. No audio was altered from this automated result."
+    },
+    {
+      "video": "technical-demo",
+      "expected_words": 685,
+      "recognized_words": 681,
+      "sequence_alignment_ratio": 0.9502,
+      "differences": [
+        {
+          "expected": "purpose is",
+          "recognized": "purposes"
+        },
+        {
+          "expected": "thirty",
+          "recognized": "30"
+        },
+        {
+          "expected": "utc",
+          "recognized": "udc"
+        },
+        {
+          "expected": "cites",
+          "recognized": "sites"
+        },
+        {
+          "expected": "01 c2",
+          "recognized": "01c2"
+        },
+        {
+          "expected": "fourteenth",
+          "recognized": "14th"
+        },
+        {
+          "expected": "fifteenth",
+          "recognized": "15th"
+        },
+        {
+          "expected": "utc",
+          "recognized": "duty c"
+        },
+        {
+          "expected": "twenty eight",
+          "recognized": "28"
+        },
+        {
+          "expected": "thirty one twenty six feed",
+          "recognized": "31 26 feet"
+        },
+        {
+          "expected": "twenty three",
+          "recognized": "23"
+        },
+        {
+          "expected": "five",
+          "recognized": "5"
+        },
+        {
+          "expected": "three",
+          "recognized": "3"
+        },
+        {
+          "expected": "three",
+          "recognized": "3"
+        },
+        {
+          "expected": "twenty nine",
+          "recognized": "29"
+        },
+        {
+          "expected": "thirty two",
+          "recognized": "32"
+        },
+        {
+          "expected": "fifteenth",
+          "recognized": "15"
+        },
+        {
+          "expected": "remained",
+          "recognized": "remain"
+        },
+        {
+          "expected": "tradeoff",
+          "recognized": "trade off"
+        },
+        {
+          "expected": "codex",
+          "recognized": "codecs"
+        },
+        {
+          "expected": "codex",
+          "recognized": "codecs"
+        },
+        {
+          "expected": "per",
+          "recognized": "for"
+        },
+        {
+          "expected": "mishear",
+          "recognized": "miss hear"
+        },
+        {
+          "expected": "programme",
+          "recognized": "program"
+        },
+        {
+          "expected": "substack",
+          "recognized": "sub stack"
+        },
+        {
+          "expected": "linked",
+          "recognized": "link"
+        }
+      ],
+      "interpretation": "Recognition differences are review flags, not proof of mispronunciation. Numeric spelling, British/American spelling and homophones explain many differences. No audio was altered from this automated result."
+    }
+  ]
+}

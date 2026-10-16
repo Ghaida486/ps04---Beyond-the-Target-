@@ -14,8 +14,18 @@
   "technical_demo_seconds": 279.462404,
   "repository_scope": "Full run metadata, snapshots, structured intermediates and cited evidence excerpts; complete originals local",
   "limitations": [
-    "Detailed pronunciation listening not certified",
-    "Reflection is assistant-drafted for student assessment",
-    "Public excerpts do not reproduce full-original approval fingerprints"
-  ]
+    "Detailed pronunciation listening not certified; automated transcription flags are retained",
+    "Public excerpts do not reproduce full-original approval fingerprints",
+    "Reflection is transparently AI-assisted and grounded in documented student judgments"
+  ],
+  "improvements": [
+    "Actual store/filter stages reproduced the retained second-day outcome in a disposable root",
+    "Offline end-to-end submission verifier and read-only GitHub Actions workflow",
+    "Exact original/export asset checksums recorded separately",
+    "Automated transcription of all four actual final audio tracks compared to authored narration",
+    "Reflection rewritten around recorded editorial failure, correction, insight and measurable next improvement"
+  ],
+  "automated_tests_passed": 13,
+  "offline_verifier": "docs/REPRODUCIBILITY_REPORT.json",
+  "audio_cross_check": "publishing/production/audio-review/automated-audio-review.json"
 }

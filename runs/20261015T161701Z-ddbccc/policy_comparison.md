@@ -31,3 +31,7 @@ The student’s acceptance of Trajectory concerns relevance; translation accurac
 Source comparison: 32 extracted records; 29 unchanged store versions and three new items. No changed versions were observed. Three new discoveries are not necessarily newly published material.
 
 The rejected Podium Archer episode must be absent from revised briefs. Final student approval remains pending.
+
+## Final use of the three newly discovered items
+
+The September 23 continental-quota preview was accepted as a before-event baseline for piece 01, but the final piece cites the later quota report instead; both are one federation publisher. The October 14 World Nomad Games feature and October 15 Bhutan report were accepted for possible access coverage in piece 03. The final 600–900-word piece retained the tighter eligibility/time/facilities argument and did not cite these two additions. Acceptance for a piece is an editorial candidate assignment, not a statement that every accepted source appears in the final article. These omissions are inspectable in briefs.jsonl and the published claim references. Source additions therefore did not establish the final policy’s effect by themselves.

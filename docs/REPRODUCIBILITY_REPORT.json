@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-10-16T01:01:26.612065+00:00",
+  "passed": true,
+  "required_scripts": 16,
+  "runs": [
+    {
+      "run_id": "20261014T175929Z-d79199",
+      "date": "2026-10-14",
+      "eligible": 28,
+      "input_types": {
+        "feed": 23,
+        "podcast": 2,
+        "youtube": 3
+      },
+      "pieces": [
+        {
+          "piece_id": "01",
+          "publishers": [
+            "indian-express",
+            "times-of-india",
+            "world-archery"
+          ],
+          "evidence_references": 7
+        },
+        {
+          "piece_id": "02",
+          "publishers": [
+            "indian-express",
+            "podium-archer",
+            "times-of-india"
+          ],
+          "evidence_references": 9
+        },
+        {
+          "piece_id": "03",
+          "publishers": [
+            "ladies-on-the-line",
+            "usa-archery",
+            "world-archery"
+          ],
+          "evidence_references": 16
+        }
+      ]
+    },
+    {
+      "run_id": "20261015T161701Z-ddbccc",
+      "date": "2026-10-15",
+      "eligible": 31,
+      "input_types": {
+        "feed": 26,
+        "podcast": 2,
+        "youtube": 3
+      },
+      "pieces": [
+        {
+          "piece_id": "01",
+          "publishers": [
+            "indian-express",
+            "times-of-india",
+            "usa-archery",
+            "world-archery"
+          ],
+          "evidence_references": 9
+        },
+        {
+          "piece_id": "02",
+          "publishers": [
+            "bow-international",
+            "ladies-on-the-line",
+            "times-of-india"
+          ],
+          "evidence_references": 11
+        },
+        {
+          "piece_id": "03",
+          "publishers": [
+            "ladies-on-the-line",
+            "usa-archery",
+            "world-archery"
+          ],
+          "evidence_references": 17
+        }
+      ]
+    }
+  ],
+  "publication_pairs": [
+    {
+      "piece_id": "01",
+      "substack_url": "https://ghaidaaljuhani.substack.com/p/new-winners-different-pathways-what",
+      "youtube_url": "https://youtu.be/DCXB8fzMp9k",
+      "article_words_approx": 724
+    },
+    {
+      "piece_id": "02",
+      "substack_url": "https://ghaidaaljuhani.substack.com/p/what-survives-scrutiny-when-athletes",
+      "youtube_url": "https://youtu.be/FIagOjRQ5vw",
+      "article_words_approx": 790
+    },
+    {
+      "piece_id": "03",
+      "substack_url": "https://ghaidaaljuhani.substack.com/p/from-eligibility-to-attendance-what",
+      "youtube_url": "https://youtu.be/n3WfhCMNlc0",
+      "article_words_approx": 758
+    }
+  ],
+  "technical_demo_duration_seconds": 279.462404,
+  "isolated_replay": {
+    "label": "Offline replay on a temporary reconstructed metadata index; not a new live day or fresh model inference",
+    "second_day_changes": {
+      "unchanged": 29,
+      "new": 3
+    },
+    "identical_replay": {
+      "unchanged": 32
+    },
+    "eligible_after_replay": 31,
+    "exclusions": {
+      "outside_window": 10
+    },
+    "source_item_ids_new": [
+      "feed-4a319a1cf447dd16062dbae7",
+      "feed-7ccbdf5bfd3b46d9ad47440d",
+      "feed-b66e922119356ccb54b99862"
+    ],
+    "production_unchanged": true
+  },
+  "failure_receipts": 7,
+  "scope": "Offline structural/reference/replay verification, not a grade, a fresh live collection, a factual audio audit, or independent web access test",
+  "evidence_scope": "Cited excerpts preserve original version identifiers; historical approval applies to the original full local archive, not the exported file bytes."
+}
