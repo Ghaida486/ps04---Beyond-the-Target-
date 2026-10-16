@@ -6,6 +6,6 @@
 - Matching article/video links saved in both directions and in SUBMISSION.md.
 - Signed-in article pages, YouTube published confirmations and unlisted statuses checked.
 - Student reported all videos working.
-- Independent outside-browser retrieval failed at the tool level; anonymous article access remains unverified.
+- Independent outside-browser retrieval failed at the tool level; the student later confirmed all articles worked following private-browser instructions.
 - Detailed listening/name/pronunciation review has not been certified.
 - Student will submit through the course portal.

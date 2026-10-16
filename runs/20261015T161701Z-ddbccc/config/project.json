@@ -1,0 +1,14 @@
+{
+  "publication_name": "Beyond the Target",
+  "topic": "Women's competitive archery",
+  "audience": "Female club archers who understand basic shooting and scoring and want to progress into competition",
+  "central_question": "What can aspiring female competitors learn from recent developments in women's competitive archery, and how strong is the evidence?",
+  "scope": "Recent competition developments, athlete experiences, access and progression; identify recurve, compound and para categories explicitly",
+  "exclusions": "Bowhunting, equipment sales without independent evidence, unsupported training or health advice, and undated or outdated evidence",
+  "editorial_voice": "Clear, practical, curious, fair to athletes, and explicit about uncertainty",
+  "reason_to_return": "A recurring evidence-based view of what changed, what deserves scrutiny, and what developing competitors should watch next",
+  "ai_provider": "codex_cli",
+  "model": "Codex CLI default; no override",
+  "transcription_provider": "faster_whisper_local",
+  "transcription_model": "base.en"
+}

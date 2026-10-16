@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "student_article_access_report": "Student said all worked after being instructed to check the three articles in a private signed-out window. Not an assistant independent anonymous access test.",
+  "article_body_word_counts_approx": [
+    724,
+    790,
+    758
+  ],
+  "video_durations_seconds": [
+    214.68,
+    206.04,
+    216.0
+  ],
+  "technical_demo_seconds": 279.462404,
+  "repository_scope": "Full run metadata, snapshots, structured intermediates and cited evidence excerpts; complete originals local",
+  "limitations": [
+    "Detailed pronunciation listening not certified",
+    "Reflection is assistant-drafted for student assessment",
+    "Public excerpts do not reproduce full-original approval fingerprints"
+  ]
+}

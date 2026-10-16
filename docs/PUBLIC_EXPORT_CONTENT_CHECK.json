@@ -1,0 +1,32 @@
+{
+  "review_id": "131b6b35cc2bae1cac3022d9cf32d847ae4978e7abe468e4c1af93402e5d0697",
+  "passed": true,
+  "issues": [
+    {
+      "artifact": "01",
+      "severity": "warning",
+      "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+    },
+    {
+      "artifact": "02",
+      "severity": "warning",
+      "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+    },
+    {
+      "artifact": "03",
+      "severity": "warning",
+      "explanation": "Student must verify argument quality, limitations, factual support, narration timing, and article/script semantic consistency. Claim-marker agreement alone is insufficient."
+    }
+  ],
+  "as_of_date": "2026-10-15",
+  "narration_word_counts": {
+    "01": 512,
+    "02": 512,
+    "03": 498
+  },
+  "approx_minutes_at_130_words_per_minute": {
+    "01": 3.94,
+    "02": 3.94,
+    "03": 3.83
+  }
+}

@@ -1,0 +1,3 @@
+# Evidence index reconstruction
+
+The operational SQLite index remains in the local archive. Run metadata and immutable version identifiers are committed; cited source passages are available under data/assets with explicit excerpt labels. To initialize a local index, run `bash data/store.sh init`, then replay the two committed `items.jsonl` streams through `bash data/store.sh upsert runs/RUN_ID`, in date order. This reconstructs the submitted ingestion observations without bypassing the store interface. `corpus.jsonl` retains the exported selection-time store views, including versions discovered during earlier attempts. This export is not a byte-identical copy of the original SQLite index.
