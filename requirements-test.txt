@@ -1,0 +1,2 @@
+# Lightweight tests only; model/transcription dependencies are not required.
+beautifulsoup4==4.15.0

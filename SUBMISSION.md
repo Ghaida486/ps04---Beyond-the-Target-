@@ -48,6 +48,7 @@ Setup and dependencies: [SETUP.md](https://github.com/Ghaida486/ps04---Beyond-th
 ## Reproduce the submitted evidence without model access
 
 ```bash
+python3 -m pip install -r requirements-test.txt
 python3 -m unittest discover -s tests -v
 python3 tools/verify_submission.py
 ```

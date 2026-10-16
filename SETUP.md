@@ -72,3 +72,5 @@ Use `python3 tools/catalogue_sources.py runs/RUN_ID` for the actual source catal
 ## Offline verification of the submitted release
 
 Run `python3 tools/verify_submission.py` from the repository root. Python’s standard library and Bash are sufficient; no API credential, model download or transcription dependency is needed for this verification. It checks the real retained artifacts and exercises storage, duplicate replay and freshness filtering in a temporary copy. It does not rerun live collection or editorial AI decisions. The ordinary full pipeline still requires the dependencies and provider login described above. The workflow `.github/workflows/verify-submission.yml` runs contract tests and the offline verifier on each push.
+
+The contract suite additionally needs BeautifulSoup: `python3 -m pip install -r requirements-test.txt`. This small test dependency set avoids downloading Whisper or model weights just to inspect the submitted evidence. The first clean GitHub runner exposed the missing dependency; the workflow now installs it explicitly.

@@ -7,13 +7,15 @@ permissions:
   contents: read
 jobs:
   offline-verification:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Install lightweight test dependency
+        run: python3 -m pip install -r requirements-test.txt
       - name: Contract tests (fictional isolated fixtures)
         run: python3 -m unittest discover -s tests -v
       - name: Verify real submitted evidence and replay actual components offline
